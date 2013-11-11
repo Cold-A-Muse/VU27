@@ -1,0 +1,66 @@
+zwart  32        zet c 4 d 4 
+wit    4198      zet c 3 d 4 
+zwart  0         zet c 2 c 3 
+wit    1383      zet b 2 c 3 
+zwart  4         zet a 2 b 2 
+wit    1092      zet a 1 b 2 
+zwart  5         zet d 3 d 4 
+wit    1464      zet a 3 a 2 
+zwart  1         zet b 3 c 3 
+wit    3494      zet d 2 c 2 
+zwart  0         zet b 1 b 2 c 2 
+wit    981       zet c 1 b 1 b 2 
+zwart  0         zet d 1 d 2 
+wit    1056      zet e 1 d 1 
+zwart  1         zet e 6 e 5 
+wit    871       zet a 4 b 3 c 2 
+zwart  1         pas
+wit    2613      zet e 2 d 2 
+zwart  0         zet f 1 e 2 
+wit    1143      zet g 1 f 1 
+zwart  2         pas
+wit    3126      zet b 4 c 3 
+zwart  0         pas
+wit    3070      zet e 3 e 2 d 3 
+zwart  0         zet f 2 e 3 
+wit    5573      zet f 3 f 2 e 3 
+zwart  0         zet g 2 f 3 
+wit    1731      zet f 4 f 3 e 4 d 4 c 4 
+zwart  0         zet g 3 f 4 
+wit    1231      zet h 1 g 2 
+zwart  3         pas
+wit    4523      zet g 4 g 3 f 4 
+zwart  2         zet h 2 g 3 f 4 
+wit    987       zet h 3 h 2 g 3 
+zwart  0         zet h 4 g 4 
+wit    1087      zet h 5 h 4 g 4 
+zwart  2         pas
+wit    3178      zet g 5 f 4 
+zwart  2         pas
+wit    3055      zet d 6 e 5 d 5 
+zwart  0         zet c 6 d 6 
+wit    5047      zet e 7 e 6 
+zwart  0         zet f 6 e 6 
+wit    4703      zet f 7 e 6 
+zwart  0         zet f 8 f 7 e 7 
+wit    2863      zet e 8 e 7 
+zwart  0         zet d 8 e 8 e 7 
+wit    5318      zet d 7 d 6 
+zwart  1         zet c 5 d 6 
+wit    2470      zet b 5 c 6 c 5 
+zwart  2         zet b 6 c 6 
+wit    6323      zet c 7 d 6 c 6 
+zwart  1         zet b 7 c 7 d 7 
+wit    1718      zet a 8 b 7 
+zwart  0         zet a 7 b 7 
+wit    897       zet a 6 a 7 b 6 
+zwart  5         zet a 5 b 6 
+wit    2383      zet b 8 c 7 b 7 b 6 
+zwart  1         zet f 5 e 5 d 5 c 5 b 5 e 6 
+wit    2613      zet g 6 f 5 f 6 e 6 
+zwart  0         zet c 8 c 7 c 6 
+wit    3909      zet g 8 f 7 f 8 e 8 d 8 c 8 
+zwart  1         zet h 6 g 6 f 6 e 6 d 6 
+wit    1070      zet h 7 h 6 g 6 
+zwart  0         zet g 7 f 7 
+wit    974       zet h 8 g 7 f 6 e 5 

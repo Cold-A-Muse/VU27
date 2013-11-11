@@ -1,0 +1,355 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module ipy_lib</title>
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>ipy_lib</strong></big></big></font></td
+></tr></table>
+    <p><tt>Created&nbsp;on&nbsp;30&nbsp;Jan.&nbsp;2012<br>
+Finished&nbsp;on&nbsp;6&nbsp;Feb.&nbsp;2012<br>
+&nbsp;<br>
+Improvements:<br>
+&nbsp;-&nbsp;1&nbsp;Mar.&nbsp;2012&nbsp;to&nbsp;2&nbsp;Mar.&nbsp;2012:&nbsp;fixed&nbsp;a&nbsp;rare&nbsp;threading&nbsp;related&nbsp;crash<br>
+&nbsp;-&nbsp;3&nbsp;Mar.&nbsp;2012&nbsp;to&nbsp;5&nbsp;Mar.&nbsp;2012:&nbsp;fixed&nbsp;a&nbsp;bug&nbsp;in&nbsp;showing&nbsp;names&nbsp;of&nbsp;the&nbsp;barchart<br>
+&nbsp;-&nbsp;17&nbsp;Mar.&nbsp;2012&nbsp;to&nbsp;18&nbsp;Mar.&nbsp;2012:&nbsp;fixed&nbsp;not&nbsp;running&nbsp;on&nbsp;Linux<br>
+&nbsp;-&nbsp;31&nbsp;Jul.&nbsp;2012&nbsp;to&nbsp;31&nbsp;Jul.&nbsp;2012:&nbsp;added&nbsp;UserInput&nbsp;and&nbsp;'privatised'&nbsp;most&nbsp;classes&nbsp;and&nbsp;imports<br>
+&nbsp;-&nbsp;1&nbsp;Aug.&nbsp;2012&nbsp;to&nbsp;2&nbsp;Aug.&nbsp;2012:&nbsp;fixed&nbsp;another&nbsp;bug&nbsp;with&nbsp;showing&nbsp;names&nbsp;of&nbsp;the&nbsp;barchart&nbsp;and&nbsp;a&nbsp;bug&nbsp;with&nbsp;displaying&nbsp;text&nbsp;in&nbsp;othello<br>
+&nbsp;-&nbsp;4&nbsp;Aug.&nbsp;2012&nbsp;to&nbsp;4&nbsp;Aug.&nbsp;2012:&nbsp;fixed&nbsp;bug&nbsp;with&nbsp;opening&nbsp;a&nbsp;file&nbsp;and&nbsp;fixed&nbsp;functionality&nbsp;of&nbsp;closing&nbsp;the&nbsp;window<br>
+&nbsp;-&nbsp;6&nbsp;Aug.&nbsp;2012&nbsp;to&nbsp;7&nbsp;Aug.&nbsp;2012:&nbsp;fixed&nbsp;multiple&nbsp;windows&nbsp;crashing&nbsp;the&nbsp;UI,&nbsp;reverted&nbsp;change&nbsp;to&nbsp;UserInput&nbsp;with&nbsp;this&nbsp;change<br>
+&nbsp;-&nbsp;21&nbsp;Aug.&nbsp;2012&nbsp;to&nbsp;21&nbsp;Aug.&nbsp;2012:&nbsp;adjusted&nbsp;naming&nbsp;from&nbsp;JAVA&nbsp;to&nbsp;Python&nbsp;convention,&nbsp;changed&nbsp;UserInput&nbsp;to&nbsp;a&nbsp;function&nbsp;that&nbsp;returns&nbsp;all&nbsp;input,&nbsp;added&nbsp;Life&nbsp;interface<br>
+&nbsp;-&nbsp;22&nbsp;Aug.&nbsp;2012&nbsp;to&nbsp;22&nbsp;Aug.&nbsp;2012:&nbsp;added&nbsp;scrollbar&nbsp;to&nbsp;othello,&nbsp;snake&nbsp;and&nbsp;life&nbsp;interfaces,&nbsp;added&nbsp;type&nbsp;checking&nbsp;and&nbsp;exceptions&nbsp;for&nbsp;all&nbsp;input<br>
+&nbsp;-&nbsp;2&nbsp;Sep.&nbsp;2012&nbsp;to&nbsp;2&nbsp;Sep.&nbsp;2012:&nbsp;fixed&nbsp;another&nbsp;bug&nbsp;with&nbsp;names&nbsp;of&nbsp;the&nbsp;barchart,&nbsp;allowed&nbsp;ints&nbsp;to&nbsp;be&nbsp;given&nbsp;to&nbsp;floats,&nbsp;fixed&nbsp;spelling<br>
+&nbsp;-&nbsp;13&nbsp;Sep.&nbsp;2012&nbsp;to&nbsp;13&nbsp;Sep.&nbsp;2012:&nbsp;fixed&nbsp;more&nbsp;spelling,&nbsp;added&nbsp;functionality&nbsp;for&nbsp;multiple&nbsp;answers&nbsp;per&nbsp;question<br>
+&nbsp;-&nbsp;27&nbsp;Sep.&nbsp;2012&nbsp;to&nbsp;27&nbsp;Sep.&nbsp;2012:&nbsp;changed&nbsp;multiple&nbsp;answers&nbsp;from&nbsp;array&nbsp;to&nbsp;arbitrary&nbsp;arguments&nbsp;list,&nbsp;added&nbsp;exception&nbsp;if&nbsp;argument&nbsp;list&nbsp;is&nbsp;empty<br>
+&nbsp;-&nbsp;6&nbsp;Dec.&nbsp;2012&nbsp;to&nbsp;6.&nbsp;Dec.&nbsp;2012:&nbsp;fixed&nbsp;resets&nbsp;of&nbsp;auto&nbsp;alarm&nbsp;speed&nbsp;by&nbsp;adding&nbsp;a&nbsp;timer<br>
+&nbsp;-&nbsp;2&nbsp;Oct.&nbsp;2013&nbsp;to&nbsp;3.&nbsp;Oct.&nbsp;2013:&nbsp;fixed&nbsp;ranged&nbsp;errors,&nbsp;fixed&nbsp;closing&nbsp;bug&nbsp;in&nbsp;Windows&nbsp;and&nbsp;Linux&nbsp;when&nbsp;only&nbsp;calling&nbsp;ask_user&nbsp;or&nbsp;file_input,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fixed&nbsp;typos,&nbsp;added&nbsp;Escape&nbsp;as&nbsp;window&nbsp;closer,&nbsp;fixed&nbsp;window&nbsp;not&nbsp;getting&nbsp;focus&nbsp;when&nbsp;started,&nbsp;added&nbsp;Mac&nbsp;support&nbsp;(!)<br>
+&nbsp;-&nbsp;9&nbsp;Oct.&nbsp;2013&nbsp;to&nbsp;9.&nbsp;Oct.&nbsp;2013:&nbsp;fixed&nbsp;get_event&nbsp;(Mac&nbsp;version)&nbsp;to&nbsp;properly&nbsp;give&nbsp;refresh&nbsp;events<br>
+&nbsp;<br>
+@author:&nbsp;Gerben&nbsp;Rozie</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="Dialog.html">Dialog</a><br>
+<a href="PIL.Image.html">PIL.Image</a><br>
+<a href="PIL.ImageTk.html">PIL.ImageTk</a><br>
+</td><td width="25%" valign=top><a href="Queue.html">Queue</a><br>
+<a href="os.html">os</a><br>
+<a href="random.html">random</a><br>
+</td><td width="25%" valign=top><a href="sys.html">sys</a><br>
+<a href="threading.html">threading</a><br>
+<a href="time.html">time</a><br>
+</td><td width="25%" valign=top><a href="Tkinter.html">Tkinter</a><br>
+<a href="tkFileDialog.html">tkFileDialog</a><br>
+<a href="tkMessageBox.html">tkMessageBox</a><br>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="__builtin__.html#object">__builtin__.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="ipy_lib.html#BarChartUserInterface">BarChartUserInterface</a>
+</font></dt><dt><font face="helvetica, arial"><a href="ipy_lib.html#Event">Event</a>
+</font></dt><dt><font face="helvetica, arial"><a href="ipy_lib.html#LifeUserInterface">LifeUserInterface</a>
+</font></dt><dt><font face="helvetica, arial"><a href="ipy_lib.html#OthelloReplayUserInterface">OthelloReplayUserInterface</a>
+</font></dt><dt><font face="helvetica, arial"><a href="ipy_lib.html#SnakeUserInterface">SnakeUserInterface</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="BarChartUserInterface">class <strong>BarChartUserInterface</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="BarChartUserInterface-__init__"><strong>__init__</strong></a>(self, bar_count)</dt><dd><tt>This&nbsp;class&nbsp;starts&nbsp;the&nbsp;<a href="#BarChartUserInterface">BarChartUserInterface</a>.<br>
+Constants:&nbsp;(none)<br>
+&nbsp;<br>
+Parameters&nbsp;for&nbsp;the&nbsp;class:<br>
+-&nbsp;bar_count:&nbsp;at&nbsp;least&nbsp;1<br>
+&nbsp;<br>
+Optional&nbsp;parameters:&nbsp;(none)</tt></dd></dl>
+
+<dl><dt><a name="BarChartUserInterface-close"><strong>close</strong></a>(self)</dt><dd><tt>Closes&nbsp;the&nbsp;display&nbsp;and&nbsp;stops&nbsp;your&nbsp;program.</tt></dd></dl>
+
+<dl><dt><a name="BarChartUserInterface-raise_bar"><strong>raise_bar</strong></a>(self, bar_index)</dt><dd><tt>Increment&nbsp;the&nbsp;given&nbsp;bar_index&nbsp;by&nbsp;1.</tt></dd></dl>
+
+<dl><dt><a name="BarChartUserInterface-set_bar_name"><strong>set_bar_name</strong></a>(self, bar_index, text)</dt><dd><tt>Set&nbsp;a&nbsp;name,&nbsp;provided&nbsp;by&nbsp;'text',&nbsp;to&nbsp;a&nbsp;given&nbsp;bar_index.<br>
+Note:&nbsp;this&nbsp;function's&nbsp;effects&nbsp;are&nbsp;visible&nbsp;without&nbsp;calling&nbsp;show.</tt></dd></dl>
+
+<dl><dt><a name="BarChartUserInterface-show"><strong>show</strong></a>(self)</dt><dd><tt>Show&nbsp;the&nbsp;changes&nbsp;made&nbsp;to&nbsp;the&nbsp;display&nbsp;(i.e.&nbsp;after&nbsp;calling&nbsp;raise_bar).</tt></dd></dl>
+
+<dl><dt><a name="BarChartUserInterface-show_names"><strong>show_names</strong></a>(self, value)</dt><dd><tt>Whether&nbsp;or&nbsp;not&nbsp;to&nbsp;show&nbsp;the&nbsp;names&nbsp;of&nbsp;the&nbsp;bars.<br>
+Value&nbsp;given&nbsp;must&nbsp;be&nbsp;a&nbsp;boolean.<br>
+Default&nbsp;at&nbsp;start&nbsp;is&nbsp;False.</tt></dd></dl>
+
+<dl><dt><a name="BarChartUserInterface-show_values"><strong>show_values</strong></a>(self, value)</dt><dd><tt>Whether&nbsp;or&nbsp;not&nbsp;to&nbsp;show&nbsp;the&nbsp;values&nbsp;of&nbsp;the&nbsp;bars.<br>
+Value&nbsp;given&nbsp;must&nbsp;be&nbsp;a&nbsp;boolean.<br>
+Default&nbsp;at&nbsp;start&nbsp;is&nbsp;True.</tt></dd></dl>
+
+<dl><dt><a name="BarChartUserInterface-stay_open"><strong>stay_open</strong></a>(self)</dt><dd><tt>Force&nbsp;the&nbsp;window&nbsp;to&nbsp;remain&nbsp;open.<br>
+Only&nbsp;has&nbsp;effect&nbsp;on&nbsp;Mac&nbsp;OS&nbsp;to&nbsp;prevent&nbsp;the&nbsp;window&nbsp;from&nbsp;closing&nbsp;after&nbsp;the&nbsp;execution&nbsp;finishes.<br>
+&nbsp;<br>
+Make&nbsp;sure&nbsp;that&nbsp;this&nbsp;is&nbsp;the&nbsp;last&nbsp;statement&nbsp;you&nbsp;call&nbsp;when&nbsp;including&nbsp;it&nbsp;because&nbsp;the&nbsp;code&nbsp;does&nbsp;NOT&nbsp;continue&nbsp;after&nbsp;this.</tt></dd></dl>
+
+<dl><dt><a name="BarChartUserInterface-wait"><strong>wait</strong></a>(self, ms)</dt><dd><tt>Let&nbsp;your&nbsp;program&nbsp;wait&nbsp;for&nbsp;an&nbsp;amount&nbsp;of&nbsp;milliseconds.<br>
+&nbsp;<br>
+This&nbsp;function&nbsp;only&nbsp;guarantees&nbsp;that&nbsp;it&nbsp;will&nbsp;wait&nbsp;at&nbsp;least&nbsp;this&nbsp;amount&nbsp;of&nbsp;time.<br>
+If&nbsp;the&nbsp;system,&nbsp;i.e.,&nbsp;is&nbsp;too&nbsp;busy,&nbsp;then&nbsp;this&nbsp;time&nbsp;might&nbsp;increase.<br>
+-&nbsp;Python&nbsp;time&nbsp;module.</tt></dd></dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Event">class <strong>Event</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Event-__init__"><strong>__init__</strong></a>(self, name, data)</dt><dd><tt>This&nbsp;class&nbsp;holds&nbsp;the&nbsp;name&nbsp;and&nbsp;data&nbsp;for&nbsp;each&nbsp;event&nbsp;in&nbsp;their&nbsp;respective&nbsp;variables.<br>
+Variables:<br>
+-&nbsp;name<br>
+-&nbsp;data<br>
+&nbsp;<br>
+Example&nbsp;to&nbsp;access&nbsp;with&nbsp;<a href="#SnakeUserInterface">SnakeUserInterface</a>:<br>
+&nbsp;<br>
+ui&nbsp;=&nbsp;<a href="#SnakeUserInterface">SnakeUserInterface</a>(5,5)&nbsp;#&nbsp;5&nbsp;by&nbsp;5&nbsp;grid&nbsp;for&nbsp;testing&nbsp;purposes<br>
+your_variable&nbsp;=&nbsp;ui.get_event()&nbsp;#&nbsp;code&nbsp;will&nbsp;block&nbsp;untill&nbsp;an&nbsp;event&nbsp;comes<br>
+#&nbsp;your_variable&nbsp;now&nbsp;points&nbsp;to&nbsp;an&nbsp;event<br>
+print&nbsp;your_variable.name,&nbsp;your_variable.data<br>
+&nbsp;<br>
+List&nbsp;of&nbsp;events:<br>
+-&nbsp;name:&nbsp;mouseover<br>
+&nbsp;&nbsp;data:&nbsp;x&nbsp;and&nbsp;y&nbsp;coordinates&nbsp;(as&nbsp;integers),&nbsp;separated&nbsp;by&nbsp;a&nbsp;space<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;generated&nbsp;when&nbsp;mouse&nbsp;goes&nbsp;over&nbsp;a&nbsp;coordinate&nbsp;on&nbsp;the&nbsp;window<br>
+-&nbsp;name:&nbsp;mouseexit<br>
+&nbsp;&nbsp;data:&nbsp;x&nbsp;and&nbsp;y&nbsp;coordinates&nbsp;(as&nbsp;integers),&nbsp;separated&nbsp;by&nbsp;a&nbsp;space<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;generated&nbsp;when&nbsp;mouse&nbsp;exits&nbsp;a&nbsp;coordinate&nbsp;on&nbsp;the&nbsp;window<br>
+-&nbsp;name:&nbsp;click<br>
+&nbsp;&nbsp;data:&nbsp;x&nbsp;and&nbsp;y&nbsp;coordinates&nbsp;(as&nbsp;integers),&nbsp;separated&nbsp;by&nbsp;a&nbsp;space<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;generated&nbsp;when&nbsp;the&nbsp;user&nbsp;clicks&nbsp;on&nbsp;a&nbsp;coordinate&nbsp;on&nbsp;the&nbsp;window<br>
+-&nbsp;name:&nbsp;alarm<br>
+&nbsp;&nbsp;data:&nbsp;refresh<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;generated&nbsp;as&nbsp;often&nbsp;per&nbsp;second&nbsp;as&nbsp;the&nbsp;user&nbsp;set&nbsp;the&nbsp;animation&nbsp;speed&nbsp;to;&nbsp;note&nbsp;that&nbsp;the&nbsp;data&nbsp;is&nbsp;exactly&nbsp;as&nbsp;it&nbsp;says:&nbsp;"refresh"<br>
+-&nbsp;name:&nbsp;letter<br>
+&nbsp;&nbsp;data:&nbsp;the&nbsp;letter&nbsp;that&nbsp;got&nbsp;pressed<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;generated&nbsp;when&nbsp;the&nbsp;user&nbsp;presses&nbsp;on&nbsp;a&nbsp;letter&nbsp;(A&nbsp;to&nbsp;Z;&nbsp;can&nbsp;be&nbsp;lowercase&nbsp;or&nbsp;uppercase&nbsp;depending&nbsp;on&nbsp;shift/caps&nbsp;lock)<br>
+-&nbsp;name:&nbsp;number<br>
+&nbsp;&nbsp;data:&nbsp;the&nbsp;number&nbsp;(as&nbsp;a&nbsp;string)&nbsp;that&nbsp;got&nbsp;pressed<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;generated&nbsp;when&nbsp;the&nbsp;user&nbsp;presses&nbsp;on&nbsp;a&nbsp;number&nbsp;(0&nbsp;to&nbsp;9)<br>
+-&nbsp;name:&nbsp;alt_number<br>
+&nbsp;&nbsp;data:&nbsp;the&nbsp;number&nbsp;(as&nbsp;a&nbsp;string)&nbsp;that&nbsp;got&nbsp;pressed<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;generated&nbsp;when&nbsp;the&nbsp;user&nbsp;presses&nbsp;on&nbsp;a&nbsp;number&nbsp;(0&nbsp;to&nbsp;9)&nbsp;while&nbsp;at&nbsp;the&nbsp;same&nbsp;time&nbsp;pressing&nbsp;the&nbsp;Alt&nbsp;key<br>
+-&nbsp;name:&nbsp;arrow<br>
+&nbsp;&nbsp;data:&nbsp;the&nbsp;arrow&nbsp;key&nbsp;that&nbsp;got&nbsp;pressed,&nbsp;given&nbsp;by&nbsp;a&nbsp;single&nbsp;letter<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;generated&nbsp;when&nbsp;the&nbsp;user&nbsp;presses&nbsp;on&nbsp;an&nbsp;arrow&nbsp;key,&nbsp;data&nbsp;is&nbsp;then&nbsp;one&nbsp;of:&nbsp;l,&nbsp;r,&nbsp;u,&nbsp;d<br>
+-&nbsp;name:&nbsp;other<br>
+&nbsp;&nbsp;data:&nbsp;data&nbsp;depends&nbsp;on&nbsp;key&nbsp;pressed<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;generated&nbsp;when&nbsp;the&nbsp;user&nbsp;pressed&nbsp;a&nbsp;different&nbsp;key&nbsp;than&nbsp;those&nbsp;described&nbsp;above<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;possible&nbsp;data:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;caps_lock<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;num_lock<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;alt<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;control<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;shift<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;more&nbsp;data&nbsp;can&nbsp;exist&nbsp;and&nbsp;are&nbsp;recorded&nbsp;(read:&nbsp;they&nbsp;generate&nbsp;events),&nbsp;but&nbsp;not&nbsp;documented</tt></dd></dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="LifeUserInterface">class <strong>LifeUserInterface</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="LifeUserInterface-__init__"><strong>__init__</strong></a>(self, width, height, scale<font color="#909090">=1.0</font>)</dt><dd><tt>This&nbsp;class&nbsp;starts&nbsp;the&nbsp;<a href="#LifeUserInterface">LifeUserInterface</a>.<br>
+Constants:<br>
+-&nbsp;DEAD<br>
+-&nbsp;ALIVE<br>
+&nbsp;<br>
+Parameters&nbsp;for&nbsp;the&nbsp;class:<br>
+-&nbsp;width:&nbsp;at&nbsp;least&nbsp;1<br>
+-&nbsp;height:&nbsp;at&nbsp;least&nbsp;1<br>
+&nbsp;<br>
+Optional&nbsp;parameters:<br>
+-&nbsp;scale:&nbsp;0.25&nbsp;to&nbsp;1.0</tt></dd></dl>
+
+<dl><dt><a name="LifeUserInterface-clear"><strong>clear</strong></a>(self)</dt><dd><tt>Clears&nbsp;the&nbsp;display.<br>
+Note:&nbsp;this&nbsp;does&nbsp;not&nbsp;clear&nbsp;the&nbsp;text&nbsp;area!</tt></dd></dl>
+
+<dl><dt><a name="LifeUserInterface-clear_text"><strong>clear_text</strong></a>(self)</dt><dd><tt>Clears&nbsp;the&nbsp;text&nbsp;area&nbsp;on&nbsp;the&nbsp;display.</tt></dd></dl>
+
+<dl><dt><a name="LifeUserInterface-close"><strong>close</strong></a>(self)</dt><dd><tt>Closes&nbsp;the&nbsp;display&nbsp;and&nbsp;stops&nbsp;your&nbsp;program.</tt></dd></dl>
+
+<dl><dt><a name="LifeUserInterface-get_event"><strong>get_event</strong></a>(self)</dt><dd><tt>Returns&nbsp;an&nbsp;event&nbsp;generated&nbsp;from&nbsp;the&nbsp;display.<br>
+The&nbsp;returned&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;has&nbsp;2&nbsp;properties:<br>
+-&nbsp;name:&nbsp;holds&nbsp;the&nbsp;group&nbsp;which&nbsp;the&nbsp;event&nbsp;belongs&nbsp;to.<br>
+-&nbsp;data:&nbsp;holds&nbsp;useful&nbsp;information&nbsp;for&nbsp;the&nbsp;user.</tt></dd></dl>
+
+<dl><dt><a name="LifeUserInterface-place"><strong>place</strong></a>(self, x, y, color)</dt><dd><tt>Place&nbsp;a&nbsp;Life&nbsp;piece&nbsp;(defined&nbsp;by&nbsp;'color')&nbsp;on&nbsp;the&nbsp;given&nbsp;X&nbsp;and&nbsp;Y&nbsp;coordinates.</tt></dd></dl>
+
+<dl><dt><a name="LifeUserInterface-print_"><strong>print_</strong></a>(self, text)</dt><dd><tt>Print&nbsp;text&nbsp;to&nbsp;the&nbsp;text&nbsp;area&nbsp;on&nbsp;the&nbsp;display.<br>
+This&nbsp;function&nbsp;does&nbsp;not&nbsp;add&nbsp;a&nbsp;trailing&nbsp;newline&nbsp;by&nbsp;itself.</tt></dd></dl>
+
+<dl><dt><a name="LifeUserInterface-random"><strong>random</strong></a>(self, maximum)</dt><dd><tt>Picks&nbsp;a&nbsp;random&nbsp;integer&nbsp;ranging&nbsp;from&nbsp;0&nbsp;&lt;=&nbsp;x&nbsp;&lt;&nbsp;maximum<br>
+Minimum&nbsp;for&nbsp;maximum&nbsp;is&nbsp;1</tt></dd></dl>
+
+<dl><dt><a name="LifeUserInterface-set_animation_speed"><strong>set_animation_speed</strong></a>(self, fps)</dt><dd><tt>Set&nbsp;an&nbsp;event&nbsp;to&nbsp;repeat&nbsp;'fps'&nbsp;times&nbsp;per&nbsp;second.<br>
+If&nbsp;the&nbsp;value&nbsp;is&nbsp;set&nbsp;to&nbsp;0&nbsp;or&nbsp;less,&nbsp;the&nbsp;repeating&nbsp;will&nbsp;halt.<br>
+In&nbsp;theory&nbsp;the&nbsp;maximum&nbsp;value&nbsp;is&nbsp;1000,&nbsp;but&nbsp;this&nbsp;depends&nbsp;on&nbsp;activity&nbsp;of&nbsp;the&nbsp;system.<br>
+&nbsp;<br>
+The&nbsp;generated&nbsp;events&nbsp;(available&nbsp;by&nbsp;using&nbsp;get_event)&nbsp;have&nbsp;these&nbsp;properties:<br>
+-&nbsp;name:&nbsp;'alarm'.<br>
+-&nbsp;data:&nbsp;'refresh'.</tt></dd></dl>
+
+<dl><dt><a name="LifeUserInterface-show"><strong>show</strong></a>(self)</dt><dd><tt>Show&nbsp;the&nbsp;changes&nbsp;made&nbsp;to&nbsp;the&nbsp;display&nbsp;(i.e.&nbsp;after&nbsp;calling&nbsp;place&nbsp;or&nbsp;clear)</tt></dd></dl>
+
+<dl><dt><a name="LifeUserInterface-stay_open"><strong>stay_open</strong></a>(self)</dt><dd><tt>Force&nbsp;the&nbsp;window&nbsp;to&nbsp;remain&nbsp;open.<br>
+Only&nbsp;has&nbsp;effect&nbsp;on&nbsp;Mac&nbsp;OS&nbsp;to&nbsp;prevent&nbsp;the&nbsp;window&nbsp;from&nbsp;closing&nbsp;after&nbsp;the&nbsp;execution&nbsp;finishes.<br>
+&nbsp;<br>
+Make&nbsp;sure&nbsp;that&nbsp;this&nbsp;is&nbsp;the&nbsp;last&nbsp;statement&nbsp;you&nbsp;call&nbsp;when&nbsp;including&nbsp;it&nbsp;because&nbsp;the&nbsp;code&nbsp;does&nbsp;NOT&nbsp;continue&nbsp;after&nbsp;this.</tt></dd></dl>
+
+<dl><dt><a name="LifeUserInterface-wait"><strong>wait</strong></a>(self, ms)</dt><dd><tt>Let&nbsp;your&nbsp;program&nbsp;wait&nbsp;for&nbsp;an&nbsp;amount&nbsp;of&nbsp;milliseconds.<br>
+&nbsp;<br>
+This&nbsp;function&nbsp;only&nbsp;guarantees&nbsp;that&nbsp;it&nbsp;will&nbsp;wait&nbsp;at&nbsp;least&nbsp;this&nbsp;amount&nbsp;of&nbsp;time.<br>
+If&nbsp;the&nbsp;system,&nbsp;i.e.,&nbsp;is&nbsp;too&nbsp;busy,&nbsp;then&nbsp;this&nbsp;time&nbsp;might&nbsp;increase.<br>
+-&nbsp;Python&nbsp;time&nbsp;module.</tt></dd></dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="OthelloReplayUserInterface">class <strong>OthelloReplayUserInterface</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="OthelloReplayUserInterface-__init__"><strong>__init__</strong></a>(self, scale<font color="#909090">=1.0</font>)</dt><dd><tt>This&nbsp;class&nbsp;starts&nbsp;the&nbsp;<a href="#OthelloReplayUserInterface">OthelloReplayUserInterface</a>.<br>
+Constants:<br>
+-&nbsp;NUMBER_OF_ROWS<br>
+-&nbsp;NUMBER_OF_COLUMNS<br>
+-&nbsp;EMPTY<br>
+-&nbsp;WHITE<br>
+-&nbsp;BLACK<br>
+&nbsp;<br>
+Parameters&nbsp;for&nbsp;the&nbsp;class:&nbsp;(none)<br>
+&nbsp;<br>
+Optional&nbsp;parameters:<br>
+-&nbsp;scale:&nbsp;0.25&nbsp;to&nbsp;1.0</tt></dd></dl>
+
+<dl><dt><a name="OthelloReplayUserInterface-clear"><strong>clear</strong></a>(self)</dt><dd><tt>Clears&nbsp;the&nbsp;display.<br>
+Note:&nbsp;this&nbsp;does&nbsp;not&nbsp;clear&nbsp;the&nbsp;text&nbsp;area!</tt></dd></dl>
+
+<dl><dt><a name="OthelloReplayUserInterface-clear_text"><strong>clear_text</strong></a>(self)</dt><dd><tt>Clears&nbsp;the&nbsp;text&nbsp;area&nbsp;on&nbsp;the&nbsp;display.</tt></dd></dl>
+
+<dl><dt><a name="OthelloReplayUserInterface-close"><strong>close</strong></a>(self)</dt><dd><tt>Closes&nbsp;the&nbsp;display&nbsp;and&nbsp;stops&nbsp;your&nbsp;program.</tt></dd></dl>
+
+<dl><dt><a name="OthelloReplayUserInterface-place"><strong>place</strong></a>(self, x, y, color)</dt><dd><tt>Place&nbsp;an&nbsp;Othello&nbsp;piece&nbsp;(defined&nbsp;by&nbsp;'color')&nbsp;on&nbsp;the&nbsp;given&nbsp;X&nbsp;and&nbsp;Y&nbsp;coordinates.</tt></dd></dl>
+
+<dl><dt><a name="OthelloReplayUserInterface-place_transparent"><strong>place_transparent</strong></a>(self, x, y, color)</dt><dd><tt>Place&nbsp;a&nbsp;semi-transparent&nbsp;Othello&nbsp;piece&nbsp;(defined&nbsp;by&nbsp;'color')&nbsp;on&nbsp;the&nbsp;given&nbsp;X&nbsp;and&nbsp;Y&nbsp;coordinates.</tt></dd></dl>
+
+<dl><dt><a name="OthelloReplayUserInterface-print_"><strong>print_</strong></a>(self, text)</dt><dd><tt>Print&nbsp;text&nbsp;to&nbsp;the&nbsp;text&nbsp;area&nbsp;on&nbsp;the&nbsp;display.<br>
+This&nbsp;function&nbsp;does&nbsp;not&nbsp;add&nbsp;a&nbsp;trailing&nbsp;newline&nbsp;by&nbsp;itself.</tt></dd></dl>
+
+<dl><dt><a name="OthelloReplayUserInterface-show"><strong>show</strong></a>(self)</dt><dd><tt>Show&nbsp;the&nbsp;changes&nbsp;made&nbsp;to&nbsp;the&nbsp;display&nbsp;(i.e.&nbsp;after&nbsp;calling&nbsp;place&nbsp;or&nbsp;clear).</tt></dd></dl>
+
+<dl><dt><a name="OthelloReplayUserInterface-stay_open"><strong>stay_open</strong></a>(self)</dt><dd><tt>Force&nbsp;the&nbsp;window&nbsp;to&nbsp;remain&nbsp;open.<br>
+Only&nbsp;has&nbsp;effect&nbsp;on&nbsp;Mac&nbsp;OS&nbsp;to&nbsp;prevent&nbsp;the&nbsp;window&nbsp;from&nbsp;closing&nbsp;after&nbsp;the&nbsp;execution&nbsp;finishes.<br>
+&nbsp;<br>
+Make&nbsp;sure&nbsp;that&nbsp;this&nbsp;is&nbsp;the&nbsp;last&nbsp;statement&nbsp;you&nbsp;call&nbsp;when&nbsp;including&nbsp;it&nbsp;because&nbsp;the&nbsp;code&nbsp;does&nbsp;NOT&nbsp;continue&nbsp;after&nbsp;this.</tt></dd></dl>
+
+<dl><dt><a name="OthelloReplayUserInterface-wait"><strong>wait</strong></a>(self, ms)</dt><dd><tt>Let&nbsp;your&nbsp;program&nbsp;wait&nbsp;for&nbsp;an&nbsp;amount&nbsp;of&nbsp;milliseconds.<br>
+&nbsp;<br>
+This&nbsp;function&nbsp;only&nbsp;guarantees&nbsp;that&nbsp;it&nbsp;will&nbsp;wait&nbsp;at&nbsp;least&nbsp;this&nbsp;amount&nbsp;of&nbsp;time.<br>
+If&nbsp;the&nbsp;system,&nbsp;i.e.,&nbsp;is&nbsp;too&nbsp;busy,&nbsp;then&nbsp;this&nbsp;time&nbsp;might&nbsp;increase.<br>
+-&nbsp;Python&nbsp;time&nbsp;module.</tt></dd></dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="SnakeUserInterface">class <strong>SnakeUserInterface</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="SnakeUserInterface-__init__"><strong>__init__</strong></a>(self, width, height, scale<font color="#909090">=1.0</font>)</dt><dd><tt>This&nbsp;class&nbsp;starts&nbsp;the&nbsp;<a href="#SnakeUserInterface">SnakeUserInterface</a>.<br>
+Constants:<br>
+-&nbsp;EMPTY<br>
+-&nbsp;FOOD<br>
+-&nbsp;SNAKE<br>
+-&nbsp;WALL<br>
+&nbsp;<br>
+Parameters&nbsp;for&nbsp;the&nbsp;class:<br>
+-&nbsp;width:&nbsp;at&nbsp;least&nbsp;1<br>
+-&nbsp;height:&nbsp;at&nbsp;least&nbsp;1<br>
+&nbsp;<br>
+Optional&nbsp;parameters:<br>
+-&nbsp;scale:&nbsp;0.25&nbsp;to&nbsp;1.0</tt></dd></dl>
+
+<dl><dt><a name="SnakeUserInterface-clear"><strong>clear</strong></a>(self)</dt><dd><tt>Clears&nbsp;the&nbsp;display.<br>
+Note:&nbsp;this&nbsp;does&nbsp;not&nbsp;clear&nbsp;the&nbsp;text&nbsp;area!</tt></dd></dl>
+
+<dl><dt><a name="SnakeUserInterface-clear_text"><strong>clear_text</strong></a>(self)</dt><dd><tt>Clears&nbsp;the&nbsp;text&nbsp;area&nbsp;on&nbsp;the&nbsp;display.</tt></dd></dl>
+
+<dl><dt><a name="SnakeUserInterface-close"><strong>close</strong></a>(self)</dt><dd><tt>Closes&nbsp;the&nbsp;display&nbsp;and&nbsp;stops&nbsp;your&nbsp;program.</tt></dd></dl>
+
+<dl><dt><a name="SnakeUserInterface-get_event"><strong>get_event</strong></a>(self)</dt><dd><tt>Returns&nbsp;an&nbsp;event&nbsp;generated&nbsp;from&nbsp;the&nbsp;display.<br>
+The&nbsp;returned&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;has&nbsp;2&nbsp;properties:<br>
+-&nbsp;name:&nbsp;holds&nbsp;the&nbsp;group&nbsp;which&nbsp;the&nbsp;event&nbsp;belongs&nbsp;to.<br>
+-&nbsp;data:&nbsp;holds&nbsp;useful&nbsp;information&nbsp;for&nbsp;the&nbsp;user.</tt></dd></dl>
+
+<dl><dt><a name="SnakeUserInterface-place"><strong>place</strong></a>(self, x, y, color)</dt><dd><tt>Place&nbsp;a&nbsp;Snake&nbsp;piece&nbsp;(defined&nbsp;by&nbsp;'color')&nbsp;on&nbsp;the&nbsp;given&nbsp;X&nbsp;and&nbsp;Y&nbsp;coordinates.</tt></dd></dl>
+
+<dl><dt><a name="SnakeUserInterface-place_transparent"><strong>place_transparent</strong></a>(self, x, y, color)</dt><dd><tt>Place&nbsp;a&nbsp;semi-transparent&nbsp;Snake&nbsp;piece&nbsp;(defined&nbsp;by&nbsp;'color')&nbsp;on&nbsp;the&nbsp;given&nbsp;X&nbsp;and&nbsp;Y&nbsp;coordinates.</tt></dd></dl>
+
+<dl><dt><a name="SnakeUserInterface-print_"><strong>print_</strong></a>(self, text)</dt><dd><tt>Print&nbsp;text&nbsp;to&nbsp;the&nbsp;text&nbsp;area&nbsp;on&nbsp;the&nbsp;display.<br>
+This&nbsp;function&nbsp;does&nbsp;not&nbsp;add&nbsp;a&nbsp;trailing&nbsp;newline&nbsp;by&nbsp;itself.</tt></dd></dl>
+
+<dl><dt><a name="SnakeUserInterface-random"><strong>random</strong></a>(self, maximum)</dt><dd><tt>Picks&nbsp;a&nbsp;random&nbsp;integer&nbsp;ranging&nbsp;from&nbsp;0&nbsp;&lt;=&nbsp;x&nbsp;&lt;&nbsp;maximum<br>
+Minimum&nbsp;for&nbsp;maximum&nbsp;is&nbsp;1</tt></dd></dl>
+
+<dl><dt><a name="SnakeUserInterface-set_animation_speed"><strong>set_animation_speed</strong></a>(self, fps)</dt><dd><tt>Set&nbsp;an&nbsp;event&nbsp;to&nbsp;repeat&nbsp;'fps'&nbsp;times&nbsp;per&nbsp;second.<br>
+If&nbsp;the&nbsp;value&nbsp;is&nbsp;set&nbsp;to&nbsp;0&nbsp;or&nbsp;less,&nbsp;the&nbsp;repeating&nbsp;will&nbsp;halt.<br>
+In&nbsp;theory&nbsp;the&nbsp;maximum&nbsp;value&nbsp;is&nbsp;1000,&nbsp;but&nbsp;this&nbsp;depends&nbsp;on&nbsp;activity&nbsp;of&nbsp;the&nbsp;system.<br>
+&nbsp;<br>
+The&nbsp;generated&nbsp;events&nbsp;(available&nbsp;by&nbsp;using&nbsp;get_event)&nbsp;have&nbsp;these&nbsp;properties:<br>
+-&nbsp;name:&nbsp;'alarm'.<br>
+-&nbsp;data:&nbsp;'refresh'.</tt></dd></dl>
+
+<dl><dt><a name="SnakeUserInterface-show"><strong>show</strong></a>(self)</dt><dd><tt>Show&nbsp;the&nbsp;changes&nbsp;made&nbsp;to&nbsp;the&nbsp;display&nbsp;(i.e.&nbsp;after&nbsp;calling&nbsp;place&nbsp;or&nbsp;clear)</tt></dd></dl>
+
+<dl><dt><a name="SnakeUserInterface-stay_open"><strong>stay_open</strong></a>(self)</dt><dd><tt>Force&nbsp;the&nbsp;window&nbsp;to&nbsp;remain&nbsp;open.<br>
+Only&nbsp;has&nbsp;effect&nbsp;on&nbsp;Mac&nbsp;OS&nbsp;to&nbsp;prevent&nbsp;the&nbsp;window&nbsp;from&nbsp;closing&nbsp;after&nbsp;the&nbsp;execution&nbsp;finishes.<br>
+&nbsp;<br>
+Make&nbsp;sure&nbsp;that&nbsp;this&nbsp;is&nbsp;the&nbsp;last&nbsp;statement&nbsp;you&nbsp;call&nbsp;when&nbsp;including&nbsp;it&nbsp;because&nbsp;the&nbsp;code&nbsp;does&nbsp;NOT&nbsp;continue&nbsp;after&nbsp;this.</tt></dd></dl>
+
+<dl><dt><a name="SnakeUserInterface-wait"><strong>wait</strong></a>(self, ms)</dt><dd><tt>Let&nbsp;your&nbsp;program&nbsp;wait&nbsp;for&nbsp;an&nbsp;amount&nbsp;of&nbsp;milliseconds.<br>
+&nbsp;<br>
+This&nbsp;function&nbsp;only&nbsp;guarantees&nbsp;that&nbsp;it&nbsp;will&nbsp;wait&nbsp;at&nbsp;least&nbsp;this&nbsp;amount&nbsp;of&nbsp;time.<br>
+If&nbsp;the&nbsp;system,&nbsp;i.e.,&nbsp;is&nbsp;too&nbsp;busy,&nbsp;then&nbsp;this&nbsp;time&nbsp;might&nbsp;increase.<br>
+-&nbsp;Python&nbsp;time&nbsp;module.</tt></dd></dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-ask_user"><strong>ask_user</strong></a>(question, *options)</dt><dd><tt>Ask&nbsp;the&nbsp;user&nbsp;a&nbsp;question.<br>
+Parameters:<br>
+-&nbsp;question:&nbsp;the&nbsp;string&nbsp;to&nbsp;ask&nbsp;the&nbsp;user<br>
+-&nbsp;options:&nbsp;arbitrary&nbsp;list&nbsp;of&nbsp;arguments&nbsp;(at&nbsp;least&nbsp;1)<br>
+Returns&nbsp;the&nbsp;chosen&nbsp;option&nbsp;by&nbsp;the&nbsp;user&nbsp;or&nbsp;None&nbsp;if&nbsp;nothing&nbsp;was&nbsp;chosen&nbsp;(e.g.&nbsp;hit&nbsp;Escape).</tt></dd></dl>
+ <dl><dt><a name="-file_input"><strong>file_input</strong></a>()</dt><dd><tt>This&nbsp;function&nbsp;lets&nbsp;the&nbsp;user&nbsp;select&nbsp;a&nbsp;file&nbsp;to&nbsp;use&nbsp;for&nbsp;input.<br>
+Returns&nbsp;the&nbsp;file&nbsp;contents&nbsp;in&nbsp;a&nbsp;string.</tt></dd></dl>
+</td></tr></table>
+</body></html>
