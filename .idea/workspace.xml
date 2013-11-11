@@ -25,7 +25,7 @@
     <file path="$PROJECT_DIR$/Week4/__init__.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1384120921838" ignored="false" />
     <file path="/Replay2.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1384121187661" ignored="false" />
     <file path="/Palindrome1.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1384210249888" ignored="false" />
-    <file path="/Dummy.txt" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1384212443127" ignored="false" />
+    <file path="/Dummy.txt" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1384212539452" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
       <file leaf-file-name="Replay1.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter3/Replay1/Replay1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="18" selection-start="594" selection-end="594" vertical-scroll-proportion="0.64818025">
+            <state line="21" column="0" selection-start="575" selection-end="575" vertical-scroll-proportion="0.6187175">
               <folding />
             </state>
           </provider>
@@ -177,6 +177,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="VU27" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VU27" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VU27" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -608,7 +618,11 @@
       <created>1384212475716</created>
       <updated>1384212475716</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial Release">
+      <created>1384212545699</created>
+      <updated>1384212545699</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -623,7 +637,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18463181" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -799,7 +813,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter3/Replay1/Replay1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="18" selection-start="594" selection-end="594" vertical-scroll-proportion="0.64818025">
+        <state line="21" column="0" selection-start="575" selection-end="575" vertical-scroll-proportion="0.6187175">
           <folding />
         </state>
       </provider>
