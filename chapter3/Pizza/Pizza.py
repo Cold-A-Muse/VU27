@@ -1,5 +1,10 @@
 __author__ = 'Helsloot'
 
+N_MARIO = 10
+K_MARIO = 3
+N_LUIGI = 9
+K_LUIGI = 4
+
 
 def factorial(number):
     product = 1
@@ -11,8 +16,8 @@ def factorial(number):
 def combinations(n, k):
     return factorial(n) / (factorial(k) * factorial(n - k))
 
-mario = combinations(10, 3)
-luigi = combinations(9, 4)
+mario = combinations(N_MARIO, K_MARIO)
+luigi = combinations(N_LUIGI, K_LUIGI)
 
 print("Mario can make %d pizzas." % mario)
 print("Luigi is able to make %d pizzas." % luigi)
