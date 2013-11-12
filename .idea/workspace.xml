@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a63abcd0-99c1-44b7-b57d-77fb7d868b46" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter3/Pizza/Pizza.py" afterPath="$PROJECT_DIR$/chapter3/Pizza/Pizza.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="VU27.iws" />
@@ -19,13 +20,13 @@
     <file path="/Palindrome.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1383319843006" ignored="false" />
     <file path="/Palindrome2.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1384210239745" ignored="false" />
     <file path="/Pyramid.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1384210314426" ignored="false" />
-    <file path="/Pizza.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1384200890742" ignored="false" />
+    <file path="/Pizza.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1384298518206" ignored="false" />
     <file path="/Tyler.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1384017490814" ignored="false" />
-    <file path="/Replay1.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1384211628657" ignored="false" />
+    <file path="/Replay1.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1384214073767" ignored="false" />
     <file path="$PROJECT_DIR$/Week4/__init__.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1384120921838" ignored="false" />
     <file path="/Replay2.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1384121187661" ignored="false" />
     <file path="/Palindrome1.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1384210249888" ignored="false" />
-    <file path="/Dummy.txt" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1384212539452" ignored="false" />
+    <file path="/Dummy.txt" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1384297363037" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
       <file leaf-file-name="Pyramid.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter3/Pyramid/Pyramid.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
+            <state line="17" column="17" selection-start="411" selection-end="420" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -72,10 +73,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Replay1.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Replay1.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter3/Replay1/Replay1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="575" selection-end="575" vertical-scroll-proportion="0.6187175">
+            <state line="16" column="33" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pizza.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter3/Pizza/Pizza.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="249" selection-end="249" vertical-scroll-proportion="0.41034484">
               <folding />
             </state>
           </provider>
@@ -92,13 +102,13 @@
       </file>
       <file leaf-file-name="Replay1Invoer.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter3/Replay1/Replay1Invoer.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="19" selection-start="95" selection-end="95" vertical-scroll-proportion="-3.4">
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="19" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -120,7 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Week2/VU7.py" />
         <option value="$PROJECT_DIR$/Week3/Tyler.py" />
         <option value="$PROJECT_DIR$/Week2/VU6.py" />
         <option value="$PROJECT_DIR$/Week3/Replay1.py" />
@@ -136,6 +145,7 @@
         <option value="$PROJECT_DIR$/Week3/PowerPlant/PowerPlant.py" />
         <option value="$PROJECT_DIR$/Week3/Pyramid/Pyramid.py" />
         <option value="$PROJECT_DIR$/chapter3/Replay1/Replay1.py" />
+        <option value="$PROJECT_DIR$/chapter3/Pizza/Pizza.py" />
       </list>
     </option>
   </component>
@@ -171,6 +181,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -355,19 +366,18 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -390,7 +400,7 @@
       <recent name="C:\Users\Helsloot\PycharmProjects\VU27\Week3\Palindrome2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Replay1">
+  <component name="RunManager" selected="Python.Pizza">
     <configuration default="false" name="Palindrome2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -429,44 +439,6 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="Pizza" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="VU27" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Helsloot\PycharmProjects\VU27\Week3\Pizza\Pizza.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Replay1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week3/Replay1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="VU27" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week3/Replay1/Replay1.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="Palindrome1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -481,6 +453,44 @@
       <module name="VU27" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week3/Palindrome1/Palindrome1.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Replay1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter3/Replay1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="VU27" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter3/Replay1/Replay1.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pizza" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter3/Pizza" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="VU27" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter3/Pizza/Pizza.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -568,17 +578,17 @@
       <item index="0" class="java.lang.String" itemvalue="Python.VU6" />
       <item index="1" class="java.lang.String" itemvalue="Python.Palindrome2" />
       <item index="2" class="java.lang.String" itemvalue="Python.Pyramid" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Pizza" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Palindrome1" />
       <item index="4" class="java.lang.String" itemvalue="Python.Replay1" />
-      <item index="5" class="java.lang.String" itemvalue="Python.Palindrome1" />
+      <item index="5" class="java.lang.String" itemvalue="Python.Pizza" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Replay1" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Palindrome1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Pizza" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Pyramid" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Palindrome2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Pizza" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Replay1" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Replay1" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Palindrome1" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Pizza" />
       </list>
     </recent_temporary>
   </component>
@@ -622,28 +632,40 @@
       <created>1384212545699</created>
       <updated>1384212545699</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial Release 2">
+      <created>1384213975758</created>
+      <updated>1384213975758</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Replay1 Test">
+      <created>1384214104456</created>
+      <updated>1384214104456</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Deleted test comment">
+      <created>1384214198690</created>
+      <updated>1384214198690</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18463181" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18676628" sideWeight="0.672586" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32741398" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -691,7 +713,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Release" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted test comment" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -706,6 +728,9 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Initial Release" />
+    <MESSAGE value="Initial Release 2" />
+    <MESSAGE value="Replay1 Test" />
+    <MESSAGE value="Deleted test comment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -747,45 +772,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ipy_lib/ipy_lib.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week4/Replay2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="33" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter3/Pizza/Pizza.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="5" selection-start="43" selection-end="44" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="30" column="33" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter3/Replay1/ipy_lib.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter3/Replay1/Replay1Invoer.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="95" selection-end="95" vertical-scroll-proportion="-3.4">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter3/PowerPlant/PowerPlant.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
+        <state line="5" column="19" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -804,16 +809,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter3/Pyramid/Pyramid.py">
+    <entry file="file://$PROJECT_DIR$/chapter3/Replay1/Replay1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
+        <state line="16" column="33" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter3/Replay1/Replay1.py">
+    <entry file="file://$PROJECT_DIR$/chapter3/PowerPlant/PowerPlant.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="575" selection-end="575" vertical-scroll-proportion="0.6187175">
+        <state line="4" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/Pyramid/Pyramid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="17" selection-start="411" selection-end="420" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/Pizza/Pizza.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="249" selection-end="249" vertical-scroll-proportion="0.41034484">
           <folding />
         </state>
       </provider>
