@@ -1,7 +1,5 @@
 __author__ = 'Helsloot'
 
-import math
-
 
 def factorial(number):
     product = 1
