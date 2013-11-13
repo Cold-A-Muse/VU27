@@ -4,8 +4,11 @@
 
 
 def printText():
-    print("NUCLEAR CORE UNSTABLE!!!\nQuarantine is in effect\nSurrounding hamlets will be activated\n"
-          "Anti-radiationsuits and iodine pill are mandatory\n")
+    print("NUCLEAR CORE UNSTABLE!!!")
+    print("Quarantine is in effect")
+    print("Surrounding hamlets will be activated")
+    print("Anti-radiationsuits and iodine pill are mandatory")
+    print("\n")
 
 for i in range(3):
     printText()
