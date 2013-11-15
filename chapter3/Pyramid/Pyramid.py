@@ -1,21 +1,16 @@
 '''Assignment: Pyramid
    Created on 11-11-2013
    @author: Daan Helsloot (dht340) '''
-ALPHABET = "abcdefghijklmnopqrstuvwxyz"
+ROWS = 15
 
-
-def palindrome(char, amount):
-    index = ALPHABET.index(char)
-    previous = ""
-    for x in range(index - amount, index):
-        previous += ALPHABET[x]
-    return previous + ALPHABET[index] + previous[::-1]
-
-
-def pyramid(rows):
+def palindroom(char):
     output = ""
-    for x in range(rows):
-        output += ' '*(rows - 1 * x) + palindrome(chr(ord('a') + x), x) + "\n"
+    for i in range (ord("a"), ord(char) + 1):
+        output += chr(i)
+    for k in range (ord(char) - 1, ord("a") -1, -1):
+        output += chr(k)
     return output
 
-print pyramid(25)
+for x in range(ROWS):
+    print palindroom(chr(ord('a') + x)).center(80)
+

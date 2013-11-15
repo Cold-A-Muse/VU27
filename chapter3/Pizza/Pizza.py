@@ -1,5 +1,8 @@
-__author__ = 'Helsloot'
-
+'''
+Assignment: Pizza
+Created: 14-11-2013
+@author: Daan Helsloot (dht340)
+'''
 N_MARIO = 10
 K_MARIO = 3
 N_LUIGI = 9
