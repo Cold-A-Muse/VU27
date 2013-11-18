@@ -1,0 +1,183 @@
+zwart  292       zet c 4 d 4 
+wit    1925      zet c 3 d 4 
+zwart  1         zet c 2 c 3 
+wit    984       zet b 2 c 3 
+zwart  5         zet a 2 b 2 
+wit    474       zet a 1 b 2 
+zwart  19        zet d 3 d 4 
+wit    1791      zet d 2 c 2 
+zwart  7         zet e 2 d 2 c 2 b 2 
+wit    882       zet a 3 a 2 
+zwart  1         zet b 3 c 3 
+wit    1711      zet c 1 b 2 
+zwart  3         zet b 1 b 2 
+wit    6302      zet e 3 e 4 d 2 d 3 c 3 b 3 
+zwart  1         zet d 1 d 2 d 3 c 1 
+wit    1105      zet e 1 e 2 d 1 c 1 b 1 d 2 
+zwart  1         zet f 2 e 2 d 2 e 3 
+wit    4789      zet f 3 e 2 e 3 d 3 
+zwart  2         zet f 4 f 3 e 3 e 4 
+wit    5237      zet f 5 e 4 
+zwart  1         zet g 6 f 5 e 4 d 3 
+wit    10538     zet c 5 d 5 c 4 
+zwart  25        zet b 5 c 5 d 5 e 5 c 4 
+wit    61284     zet a 6 b 5 c 4 d 3 
+zwart  1         zet b 4 c 4 c 3 b 3 
+wit    742       zet a 4 b 3 c 2 
+zwart  7         zet f 1 e 2 d 3 
+wit    1003      zet a 5 b 4 c 3 d 2 
+zwart  0         zet b 6 b 5 b 4 b 3 
+wit    2150      zet g 1 f 1 
+zwart  1         pas
+wit    6086      zet a 7 b 6 c 5 d 4 e 3 f 2 
+zwart  0         zet b 7 b 6 
+wit    1866      zet c 6 b 5 b 6 
+zwart  1         zet c 7 c 6 c 5 
+wit    2088      zet g 3 f 3 
+zwart  1         zet h 3 g 3 f 3 e 3 
+wit    1051      zet g 4 f 3 e 2 f 4 e 4 
+zwart  1         zet g 2 f 2 e 2 d 2 c 2 f 3 e 4 
+wit    1719      zet d 7 c 6 c 7 b 7 
+zwart  0         zet b 8 b 7 b 6 b 5 
+wit    563       zet a 8 b 7 
+zwart  2         zet c 8 c 7 c 6 
+wit    1070      zet d 8 c 7 b 6 c 8 b 8 
+zwart  0         zet g 5 g 4 f 4 
+wit    1822      zet h 1 g 2 f 3 e 4 d 5 c 6 
+zwart  0         zet d 6 d 5 d 4 
+wit    916       zet h 2 g 3 f 4 e 5 d 6 
+zwart  1         zet e 6 e 5 e 4 
+wit    926       zet h 4 h 3 g 4 
+zwart  0         zet e 8 d 7 c 6 
+wit    1734      zet h 5 g 5 f 5 e 5 d 5 c 5 b 5 
+zwart  0         zet f 6 f 5 f 4 f 3 e 5 
+wit    1014      zet e 7 f 6 e 6 e 5 e 4 e 3 e 2 d 7 
+zwart  0         zet f 7 f 6 e 6 d 5 
+wit    752       zet f 8 f 7 f 6 f 5 f 4 f 3 f 2 e 8 
+zwart  2         zet h 6 g 5 f 4 e 3 
+wit    956       zet h 7 h 6 g 6 
+zwart  0         zet g 7 g 6 f 6 e 5 
+wit    1075      zet h 8 g 7 f 6 e 5 d 4 
+zwart  0         zet g 8 g 7 f 7 
+=zwart  292       zet c 4 d 4 
+wit    1925      zet c 3 d 4 
+zwart  1         zet c 2 c 3 
+wit    984       zet b 2 c 3 
+zwart  5         zet a 2 b 2 
+wit    474       zet a 1 b 2 
+zwart  19        zet d 3 d 4 
+wit    1791      zet d 2 c 2 
+zwart  7         zet e 2 d 2 c 2 b 2 
+wit    882       zet a 3 a 2 
+zwart  1         zet b 3 c 3 
+wit    1711      zet c 1 b 2 
+zwart  3         zet b 1 b 2 
+wit    6302      zet e 3 e 4 d 2 d 3 c 3 b 3 
+zwart  1         zet d 1 d 2 d 3 c 1 
+wit    1105      zet e 1 e 2 d 1 c 1 b 1 d 2 
+zwart  1         zet f 2 e 2 d 2 e 3 
+wit    4789      zet f 3 e 2 e 3 d 3 
+zwart  2         zet f 4 f 3 e 3 e 4 
+wit    5237      zet f 5 e 4 
+zwart  1         zet g 6 f 5 e 4 d 3 
+wit    10538     zet c 5 d 5 c 4 
+zwart  25        zet b 5 c 5 d 5 e 5 c 4 
+wit    61284     zet a 6 b 5 c 4 d 3 
+zwart  1         zet b 4 c 4 c 3 b 3 
+wit    742       zet a 4 b 3 c 2 
+zwart  7         zet f 1 e 2 d 3 
+wit    1003      zet a 5 b 4 c 3 d 2 
+zwart  0         zet b 6 b 5 b 4 b 3 
+wit    2150      zet g 1 f 1 
+zwart  1         pas
+wit    6086      zet a 7 b 6 c 5 d 4 e 3 f 2 
+zwart  0         zet b 7 b 6 
+wit    1866      zet c 6 b 5 b 6 
+zwart  1         zet c 7 c 6 c 5 
+wit    2088      zet g 3 f 3 
+zwart  1         zet h 3 g 3 f 3 e 3 
+wit    1051      zet g 4 f 3 e 2 f 4 e 4 
+zwart  1         zet g 2 f 2 e 2 d 2 c 2 f 3 e 4 
+wit    1719      zet d 7 c 6 c 7 b 7 
+zwart  0         zet b 8 b 7 b 6 b 5 
+wit    563       zet a 8 b 7 
+zwart  2         zet c 8 c 7 c 6 
+wit    1070      zet d 8 c 7 b 6 c 8 b 8 
+zwart  0         zet g 5 g 4 f 4 
+wit    1822      zet h 1 g 2 f 3 e 4 d 5 c 6 
+zwart  0         zet d 6 d 5 d 4 
+wit    916       zet h 2 g 3 f 4 e 5 d 6 
+zwart  1         zet e 6 e 5 e 4 
+wit    926       zet h 4 h 3 g 4 
+zwart  0         zet e 8 d 7 c 6 
+wit    1734      zet h 5 g 5 f 5 e 5 d 5 c 5 b 5 
+zwart  0         zet f 6 f 5 f 4 f 3 e 5 
+wit    1014      zet e 7 f 6 e 6 e 5 e 4 e 3 e 2 d 7 
+zwart  0         zet f 7 f 6 e 6 d 5 
+wit    752       zet f 8 f 7 f 6 f 5 f 4 f 3 f 2 e 8 
+zwart  2         zet h 6 g 5 f 4 e 3 
+wit    956       zet h 7 h 6 g 6 
+zwart  0         zet g 7 g 6 f 6 e 5 
+wit    1075      zet h 8 g 7 f 6 e 5 d 4 
+zwart  0         zet g 8 g 7 f 7 
+=zwart  292       zet c 4 d 4 
+wit    1925      zet c 3 d 4 
+zwart  1         zet c 2 c 3 
+wit    984       zet b 2 c 3 
+zwart  5         zet a 2 b 2 
+wit    474       zet a 1 b 2 
+zwart  19        zet d 3 d 4 
+wit    1791      zet d 2 c 2 
+zwart  7         zet e 2 d 2 c 2 b 2 
+wit    882       zet a 3 a 2 
+zwart  1         zet b 3 c 3 
+wit    1711      zet c 1 b 2 
+zwart  3         zet b 1 b 2 
+wit    6302      zet e 3 e 4 d 2 d 3 c 3 b 3 
+zwart  1         zet d 1 d 2 d 3 c 1 
+wit    1105      zet e 1 e 2 d 1 c 1 b 1 d 2 
+zwart  1         zet f 2 e 2 d 2 e 3 
+wit    4789      zet f 3 e 2 e 3 d 3 
+zwart  2         zet f 4 f 3 e 3 e 4 
+wit    5237      zet f 5 e 4 
+zwart  1         zet g 6 f 5 e 4 d 3 
+wit    10538     zet c 5 d 5 c 4 
+zwart  25        zet b 5 c 5 d 5 e 5 c 4 
+wit    61284     zet a 6 b 5 c 4 d 3 
+zwart  1         zet b 4 c 4 c 3 b 3 
+wit    742       zet a 4 b 3 c 2 
+zwart  7         zet f 1 e 2 d 3 
+wit    1003      zet a 5 b 4 c 3 d 2 
+zwart  0         zet b 6 b 5 b 4 b 3 
+wit    2150      zet g 1 f 1 
+zwart  1         pas
+wit    6086      zet a 7 b 6 c 5 d 4 e 3 f 2 
+zwart  0         zet b 7 b 6 
+wit    1866      zet c 6 b 5 b 6 
+zwart  1         zet c 7 c 6 c 5 
+wit    2088      zet g 3 f 3 
+zwart  1         zet h 3 g 3 f 3 e 3 
+wit    1051      zet g 4 f 3 e 2 f 4 e 4 
+zwart  1         zet g 2 f 2 e 2 d 2 c 2 f 3 e 4 
+wit    1719      zet d 7 c 6 c 7 b 7 
+zwart  0         zet b 8 b 7 b 6 b 5 
+wit    563       zet a 8 b 7 
+zwart  2         zet c 8 c 7 c 6 
+wit    1070      zet d 8 c 7 b 6 c 8 b 8 
+zwart  0         zet g 5 g 4 f 4 
+wit    1822      zet h 1 g 2 f 3 e 4 d 5 c 6 
+zwart  0         zet d 6 d 5 d 4 
+wit    916       zet h 2 g 3 f 4 e 5 d 6 
+zwart  1         zet e 6 e 5 e 4 
+wit    926       zet h 4 h 3 g 4 
+zwart  0         zet e 8 d 7 c 6 
+wit    1734      zet h 5 g 5 f 5 e 5 d 5 c 5 b 5 
+zwart  0         zet f 6 f 5 f 4 f 3 e 5 
+wit    1014      zet e 7 f 6 e 6 e 5 e 4 e 3 e 2 d 7 
+zwart  0         zet f 7 f 6 e 6 d 5 
+wit    752       zet f 8 f 7 f 6 f 5 f 4 f 3 f 2 e 8 
+zwart  2         zet h 6 g 5 f 4 e 3 
+wit    956       zet h 7 h 6 g 6 
+zwart  0         zet g 7 g 6 f 6 e 5 
+wit    1075      zet h 8 g 7 f 6 e 5 d 4 
+zwart  0         zet g 8 g 7 f 7 

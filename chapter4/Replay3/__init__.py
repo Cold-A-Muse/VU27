@@ -1,4 +1,4 @@
-'''Assignment: Replay2
+'''Assignment: Replay3
    Created on 18-11-2013
    @author: Daan Helsloot (dht340) '''
 
@@ -40,6 +40,9 @@ def getWaitingTime(beurt):
 
 def zetSteen(beurt):
     kleur = beurt[0]
+    if kleur.startswith('='):
+        kleur = kleur[1::]
+
     juiste_steen = getGoodColor(beurt)
     x_coords = getXCoordinates(beurt)
     y_coords = getYCoordinates(beurt)
@@ -63,11 +66,30 @@ def getAction(beurt):
 
 def play():
     for beurt in beurten:
-        ui.wait(getWaitingTime(beurt))
-        if getAction(beurt) == 'zet':
+        kleur = beurt[0]
+        if kleur.startswith('='):
+            newGame()
+            ui.wait(getWaitingTime(beurt))
             zetSteen(beurt)
-        elif getAction(beurt) == 'pas':
-            wachtBeurt(beurt)
+        else:
+            ui.wait(getWaitingTime(beurt))
+            if getAction(beurt) == 'zet':
+                zetSteen(beurt)
+            elif getAction(beurt) == 'pas':
+                wachtBeurt(beurt)
+
+
+def newGame():
+    ui.clear()
+    ui.clear_text()
+    ui.print_("Old game has ended. New game will start in ~5 seconds")
+    ui.wait(5000)
+    ui.clear_text()
+    ui.place(THREE, THREE, ui.WHITE)
+    ui.place(FOUR, FOUR, ui.WHITE)
+    ui.place(THREE, FOUR, ui.BLACK)
+    ui.place(FOUR, THREE, ui.BLACK)
+    ui.show()
 
 
 ui.place(THREE, THREE, ui.WHITE)
