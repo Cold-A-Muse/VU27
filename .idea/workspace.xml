@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a63abcd0-99c1-44b7-b57d-77fb7d868b46" name="Default" comment="Added Replay2">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/Replay3/Replay3Invoer.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/Replay3/__init__.py" />
-      <change type="MOVED" beforePath="C:\Users\Helsloot\PycharmProjects\VU27\ipy_lib\images\alive.png" afterPath="$PROJECT_DIR$/chapter4/Replay3/images/alive.png" />
-      <change type="MOVED" beforePath="C:\Users\Helsloot\PycharmProjects\VU27\ipy_lib\images\apple.png" afterPath="$PROJECT_DIR$/chapter4/Replay3/images/apple.png" />
-      <change type="MOVED" beforePath="C:\Users\Helsloot\PycharmProjects\VU27\ipy_lib\images\apple_t.png" afterPath="$PROJECT_DIR$/chapter4/Replay3/images/apple_t.png" />
-      <change type="MOVED" beforePath="C:\Users\Helsloot\PycharmProjects\VU27\ipy_lib\images\black.png" afterPath="$PROJECT_DIR$/chapter4/Replay3/images/black.png" />
-      <change type="MOVED" beforePath="C:\Users\Helsloot\PycharmProjects\VU27\ipy_lib\images\black_t.png" afterPath="$PROJECT_DIR$/chapter4/Replay3/images/black_t.png" />
-      <change type="MOVED" beforePath="C:\Users\Helsloot\PycharmProjects\VU27\ipy_lib\images\dead.png" afterPath="$PROJECT_DIR$/chapter4/Replay3/images/dead.png" />
-      <change type="MOVED" beforePath="C:\Users\Helsloot\PycharmProjects\VU27\ipy_lib\images\jungle.jpg" afterPath="$PROJECT_DIR$/chapter4/Replay3/images/jungle.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Helsloot\PycharmProjects\VU27\ipy_lib\images\muur.png" afterPath="$PROJECT_DIR$/chapter4/Replay3/images/muur.png" />
-      <change type="MOVED" beforePath="C:\Users\Helsloot\PycharmProjects\VU27\ipy_lib\images\muur_t.png" afterPath="$PROJECT_DIR$/chapter4/Replay3/images/muur_t.png" />
-      <change type="MOVED" beforePath="C:\Users\Helsloot\PycharmProjects\VU27\ipy_lib\images\snake.png" afterPath="$PROJECT_DIR$/chapter4/Replay3/images/snake.png" />
-      <change type="MOVED" beforePath="C:\Users\Helsloot\PycharmProjects\VU27\ipy_lib\images\snake_t.png" afterPath="$PROJECT_DIR$/chapter4/Replay3/images/snake_t.png" />
-      <change type="MOVED" beforePath="C:\Users\Helsloot\PycharmProjects\VU27\ipy_lib\images\white.png" afterPath="$PROJECT_DIR$/chapter4/Replay3/images/white.png" />
-      <change type="MOVED" beforePath="C:\Users\Helsloot\PycharmProjects\VU27\ipy_lib\images\white_t.png" afterPath="$PROJECT_DIR$/chapter4/Replay3/images/white_t.png" />
-      <change type="MOVED" beforePath="C:\Users\Helsloot\PycharmProjects\VU27\ipy_lib\ipy_lib.html" afterPath="$PROJECT_DIR$/chapter4/Replay3/ipy_lib.html" />
-      <change type="MOVED" beforePath="C:\Users\Helsloot\PycharmProjects\VU27\ipy_lib\ipy_lib.py" afterPath="$PROJECT_DIR$/chapter4/Replay3/ipy_lib.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter4/Replay 2/Replay2.py" afterPath="$PROJECT_DIR$/chapter4/Replay 2/Replay2.py" />
+    <list default="true" id="a63abcd0-99c1-44b7-b57d-77fb7d868b46" name="Default" comment="Made">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter5/Weave2/NumberRow.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/Replay 2/Replay2Invoer.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter5/Weave1/RowWeaver.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter5/Weave1/Weave1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter5/Weave2/Weave2.py" />
+      <change type="DELETED" beforePath="C:\Users\Helsloot\PycharmProjects\VU27\chapter4\Statistics\Statistic.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="VU27.iws" />
@@ -43,8 +31,12 @@
     <file path="$PROJECT_DIR$/Week4/__init__.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1384120921838" ignored="false" />
     <file path="/Replay2.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1384777887810" ignored="false" />
     <file path="/Palindrome1.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1384357195378" ignored="false" />
-    <file path="/Dummy.txt" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1384778009672" ignored="false" />
+    <file path="/Dummy.txt" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1385304508998" ignored="false" />
     <file path="/__init__.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1384781089358" ignored="false" />
+    <file path="/Statistic.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1385069540537" ignored="false" />
+    <file path="/Weave1.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1385304465243" ignored="false" />
+    <file path="/RowWeaver.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1385302975482" ignored="false" />
+    <file path="/NumberRow.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1385304352277" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,40 +56,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Replay1Invoer.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter3/Replay1/Replay1Invoer.txt">
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
+      <file leaf-file-name="Weave2.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter5/Weave2/Weave2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="19" selection-start="95" selection-end="95" vertical-scroll-proportion="-3.4">
-              <folding />
+            <state line="20" column="33" selection-start="516" selection-end="516" vertical-scroll-proportion="0.57921636">
+              <folding>
+                <element signature="e#86#96#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Replay2.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter4/Replay 2/Replay2.py">
+      <file leaf-file-name="NumberRow.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter5/Weave2/NumberRow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="31" selection-start="1654" selection-end="1654" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Replay2Invoer.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter4/Replay 2/Replay2Invoer.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter4/Replay3/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="320" selection-end="320" vertical-scroll-proportion="0.46896553">
+            <state line="17" column="4" selection-start="334" selection-end="393" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -121,13 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Week3/Palindrome2.py" />
-        <option value="$PROJECT_DIR$/Week3/Pyramid.py" />
-        <option value="$PROJECT_DIR$/Week3/Pizza.py" />
-        <option value="$PROJECT_DIR$/Week3/Palindrome2/Palindrome2.py" />
-        <option value="$PROJECT_DIR$/Week3/Palindrome1/Palindrome1.py" />
-        <option value="$PROJECT_DIR$/Week3/Replay1/Replay1.py" />
-        <option value="$PROJECT_DIR$/Week3/PowerPlant/PowerPlant.py" />
         <option value="$PROJECT_DIR$/Week3/Pyramid/Pyramid.py" />
         <option value="$PROJECT_DIR$/chapter3/Pizza/Pizza.py" />
         <option value="$PROJECT_DIR$/chapter3/PowerPlant/PowerPlant.py" />
@@ -137,6 +103,13 @@
         <option value="$PROJECT_DIR$/chapter4/Replay 2/__init__.py" />
         <option value="$PROJECT_DIR$/chapter4/Replay 2/Replay2.py" />
         <option value="$PROJECT_DIR$/chapter4/Replay3/__init__.py" />
+        <option value="$PROJECT_DIR$/chapter4/Statistics/Statistics.py" />
+        <option value="$PROJECT_DIR$/chapter4/Statistics/Statistic.py" />
+        <option value="$PROJECT_DIR$/Chapter5/Weave1/RowWeaver.py" />
+        <option value="$PROJECT_DIR$/Chapter5/Weave1/Weave1.py" />
+        <option value="$PROJECT_DIR$/Chapter5/Weave2/Weave1.py" />
+        <option value="$PROJECT_DIR$/Chapter5/Weave2/NumberRow.py" />
+        <option value="$PROJECT_DIR$/Chapter5/Weave2/Weave2.py" />
       </list>
     </option>
   </component>
@@ -172,6 +145,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,6 +177,38 @@
               <option name="myItemId" value="chapter4" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VU27" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VU27" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Replay3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VU27" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VU27" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Replay 2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -218,33 +224,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chapter4" />
+              <option name="myItemId" value="Chapter5" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Replay3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VU27" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VU27" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Replay3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="Weave2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -258,161 +242,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chapter3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VU27" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VU27" />
+              <option name="myItemId" value="Chapter5" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chapter3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Replay1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VU27" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VU27" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pyramid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VU27" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VU27" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PowerPlant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VU27" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VU27" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pizza" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VU27" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VU27" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Palindrome2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VU27" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VU27" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Palindrome1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VU27" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VU27" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Week4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VU27" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VU27" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Week2" />
+              <option name="myItemId" value="Weave1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -424,10 +275,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Helsloot\PycharmProjects\VU27\Chapter5\Weave2" />
+      <recent name="C:\Users\Helsloot\PycharmProjects\VU27\chapter4\Statistics" />
       <recent name="C:\Users\Helsloot\PycharmProjects\VU27\chapter4\Chapter 3" />
       <recent name="C:\Users\Helsloot\PycharmProjects\VU27\chapter4" />
       <recent name="C:\Users\Helsloot\PycharmProjects\VU27\Week3\Replay1" />
-      <recent name="C:\Users\Helsloot\PycharmProjects\VU27\Week4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Helsloot\PycharmProjects\VU27\chapter4\Replay3" />
@@ -437,83 +289,7 @@
       <recent name="C:\Users\Helsloot\PycharmProjects\VU27\Week3\Pyramid" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.__init__">
-    <configuration default="false" name="Pizza" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter3/Pizza" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="VU27" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter3/Pizza/Pizza.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PowerPlant" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter3/PowerPlant" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="VU27" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter3/PowerPlant/PowerPlant.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Palindrome1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter3/Palindrome1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="VU27" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter3/Palindrome1/Palindrome1.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Replay2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter4/Replay 2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="VU27" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter4/Replay 2/Replay2.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Weave2">
     <configuration default="false" name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -528,6 +304,82 @@
       <module name="VU27" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter4/Replay3/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Statistic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter4/Statistics" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="VU27" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter4/Statistics/Statistic.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Weave1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter5/Weave1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="VU27" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter5/Weave1/Weave1.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RowWeaver" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter5/Weave1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="VU27" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter5/Weave1/RowWeaver.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Weave2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter5/Weave2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="VU27" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter5/Weave2/Weave2.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -613,19 +465,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.VU6" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Pizza" />
-      <item index="2" class="java.lang.String" itemvalue="Python.PowerPlant" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Palindrome1" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Replay2" />
-      <item index="5" class="java.lang.String" itemvalue="Python.__init__" />
+      <item index="1" class="java.lang.String" itemvalue="Python.__init__" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Statistic" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Weave1" />
+      <item index="4" class="java.lang.String" itemvalue="Python.RowWeaver" />
+      <item index="5" class="java.lang.String" itemvalue="Python.Weave2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.__init__" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Replay2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Palindrome1" />
-        <item index="3" class="java.lang.String" itemvalue="Python.PowerPlant" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Pizza" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Weave2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Weave1" />
+        <item index="2" class="java.lang.String" itemvalue="Python.RowWeaver" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Statistic" />
+        <item index="4" class="java.lang.String" itemvalue="Python.__init__" />
       </list>
     </recent_temporary>
   </component>
@@ -705,7 +557,23 @@
       <created>1384778012357</created>
       <updated>1384778012357</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added Replay3">
+      <created>1384781730575</created>
+      <updated>1384781730575</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Started on Statistic">
+      <created>1384976172185</created>
+      <updated>1384976172185</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Started on Statistic">
+      <created>1384976787239</created>
+      <updated>1384976787239</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Started on Statistic">
+      <created>1385039747276</created>
+      <updated>1385039747276</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -729,24 +597,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19316968" sideWeight="0.67408234" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20651014" sideWeight="0.68035513" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3263041" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3259177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31964484" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -794,7 +662,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Replay2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started on Statistic" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -818,6 +686,8 @@
     <MESSAGE value="Regels in verschillende print functies gezet (zombiemode uni ftw &gt;.&gt;)" />
     <MESSAGE value="Rewrite van alle python files" />
     <MESSAGE value="Added Replay2" />
+    <MESSAGE value="Added Replay3" />
+    <MESSAGE value="Started on Statistic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -825,36 +695,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Week2/VU3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="85" selection-start="379" selection-end="387" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week4/Replay2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="33" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter3/Replay1/ipy_lib.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter3/Palindrome1/Palindrome1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="308" selection-end="308" vertical-scroll-proportion="0.38037866" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter3/Pyramid/Pyramid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="17" selection-start="277" selection-end="277" vertical-scroll-proportion="0.29259896" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter3/Palindrome2/Palindrome2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="90" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter3/Pizza/Pizza.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="23" selection-start="302" selection-end="302" vertical-scroll-proportion="0.5025818" />
@@ -867,16 +707,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter4/Replay 2/ipy_lib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter3/Replay1/Replay1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="0" selection-end="1695" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="26" column="0" selection-start="0" selection-end="1695" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/Replay 2/Replay2Invoer.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.61551726" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/Statistics/ipy_lib.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/Replay3/ipy_lib.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter3/Replay1/Replay1Invoer.txt">
@@ -884,29 +735,70 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="95" selection-end="95" vertical-scroll-proportion="-3.4">
+        <state line="5" column="19" selection-start="95" selection-end="95" vertical-scroll-proportion="0.02" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/Statistics/StatisticsInvoer.txt">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="5" selection-start="1903" selection-end="1903" vertical-scroll-proportion="0.02">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter4/Replay 2/Replay2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="31" selection-start="1654" selection-end="1654" vertical-scroll-proportion="0.0">
+        <state line="20" column="15" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter4/Replay 2/Replay2Invoer.txt">
+    <entry file="file://$PROJECT_DIR$/chapter4/Statistics/Statistics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="63" column="0" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter4/Replay3/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="320" selection-end="320" vertical-scroll-proportion="0.46896553">
+        <state line="16" column="0" selection-start="320" selection-end="320" vertical-scroll-proportion="-0.318569">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/Weave1/Weave1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="38" selection-start="384" selection-end="384" vertical-scroll-proportion="0.43441227">
+          <folding>
+            <element signature="e#86#96#0" expanded="true" />
+            <marker date="1385303175204" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/Weave1/RowWeaver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="406" selection-end="406" vertical-scroll-proportion="0.4923339">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/Weave2/NumberRow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="4" selection-start="334" selection-end="393" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/Weave2/Weave2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="33" selection-start="516" selection-end="516" vertical-scroll-proportion="0.57921636">
+          <folding>
+            <element signature="e#86#96#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
