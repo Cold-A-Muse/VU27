@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a63abcd0-99c1-44b7-b57d-77fb7d868b46" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter5/BodyMassIndex/BMIHelper.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter5/BodyMassIndex/BodyMassIndex.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter5/BodyMassIndex2/BMIHelper.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter5/BodyMassIndex2/BodyMassIndex2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter5/BodyMassIndex/bmi.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter5/BodyMassIndex2/bmi2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter5/BodyMassIndex/BodyMassIndex.py" afterPath="$PROJECT_DIR$/Chapter5/BodyMassIndex/BodyMassIndex.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="VU27.iws" />
@@ -27,14 +30,15 @@
     <file path="$PROJECT_DIR$/Week4/__init__.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1384120921838" ignored="false" />
     <file path="/Replay2.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1384777887810" ignored="false" />
     <file path="/Palindrome1.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1384357195378" ignored="false" />
-    <file path="/Dummy.txt" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1385304548856" ignored="false" />
+    <file path="/Dummy.txt" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1385307129140" ignored="false" />
     <file path="/__init__.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1384781089358" ignored="false" />
     <file path="/Statistic.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1385069540537" ignored="false" />
     <file path="/Weave1.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1385304465243" ignored="false" />
     <file path="/RowWeaver.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1385302975482" ignored="false" />
     <file path="/NumberRow.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1385304352277" ignored="false" />
-    <file path="/BodyMassIndex.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1385306749813" ignored="false" />
-    <file path="/BMIHelper.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1385307039549" ignored="false" />
+    <file path="/BodyMassIndex.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1385307379900" ignored="false" />
+    <file path="/BMIHelper.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1385311401650" ignored="false" />
+    <file path="/BodyMassIndex2.py" changelist="a63abcd0-99c1-44b7-b57d-77fb7d868b46" time="1385311069077" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +72,7 @@
       <file leaf-file-name="BodyMassIndex.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter5/BodyMassIndex/BodyMassIndex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="22" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
+            <state line="19" column="60" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#94#104#0" expanded="true" />
               </folding>
@@ -76,22 +80,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bmi.txt" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter5/BodyMassIndex/bmi.txt">
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
+      <file leaf-file-name="BMIHelper.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter5/BodyMassIndex2/BMIHelper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="19" column="4" selection-start="471" selection-end="471" vertical-scroll-proportion="0.44957265">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BMIHelper.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter5/BodyMassIndex/BMIHelper.py">
+      <file leaf-file-name="BodyMassIndex2.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter5/BodyMassIndex2/BodyMassIndex2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="72" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+            <state line="11" column="0" selection-start="238" selection-end="255" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -115,8 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/chapter3/PowerPlant/PowerPlant.py" />
-        <option value="$PROJECT_DIR$/chapter3/Palindrome1/Palindrome1.py" />
         <option value="$PROJECT_DIR$/chapter3/Replay1/Replay1.py" />
         <option value="$PROJECT_DIR$/chapter4/Replay2/__init__.py" />
         <option value="$PROJECT_DIR$/chapter4/Replay 2/__init__.py" />
@@ -129,8 +128,10 @@
         <option value="$PROJECT_DIR$/Chapter5/Weave2/Weave1.py" />
         <option value="$PROJECT_DIR$/Chapter5/Weave2/NumberRow.py" />
         <option value="$PROJECT_DIR$/Chapter5/Weave2/Weave2.py" />
-        <option value="$PROJECT_DIR$/Chapter5/BodyMassIndex/BodyMassIndex.py" />
         <option value="$PROJECT_DIR$/Chapter5/BodyMassIndex/BMIHelper.py" />
+        <option value="$PROJECT_DIR$/Chapter5/BodyMassIndex/BodyMassIndex.py" />
+        <option value="$PROJECT_DIR$/Chapter5/BodyMassIndex2/BodyMassIndex2.py" />
+        <option value="$PROJECT_DIR$/Chapter5/BodyMassIndex2/BMIHelper.py" />
       </list>
     </option>
   </component>
@@ -285,6 +286,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="BodyMassIndex2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VU27" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VU27" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="BodyMassIndex" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -314,11 +333,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Helsloot\PycharmProjects\VU27\Chapter5\BodyMassIndex2" />
       <recent name="C:\Users\Helsloot\PycharmProjects\VU27\Chapter5\Weave2" />
       <recent name="C:\Users\Helsloot\PycharmProjects\VU27\chapter4\Statistics" />
       <recent name="C:\Users\Helsloot\PycharmProjects\VU27\chapter4\Chapter 3" />
       <recent name="C:\Users\Helsloot\PycharmProjects\VU27\chapter4" />
-      <recent name="C:\Users\Helsloot\PycharmProjects\VU27\Week3\Replay1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Helsloot\PycharmProjects\VU27\chapter4\Replay3" />
@@ -328,26 +347,7 @@
       <recent name="C:\Users\Helsloot\PycharmProjects\VU27\Week3\Pyramid" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.BodyMassIndex">
-    <configuration default="false" name="Statistic" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter4/Statistics" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="VU27" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter4/Statistics/Statistic.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.BodyMassIndex2">
     <configuration default="false" name="Weave1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -362,25 +362,6 @@
       <module name="VU27" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter5/Weave1/Weave1.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="RowWeaver" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter5/Weave1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="VU27" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter5/Weave1/RowWeaver.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -419,6 +400,44 @@
       <module name="VU27" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter5/BodyMassIndex/BodyMassIndex.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BodyMassIndex2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter5/BodyMassIndex2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="VU27" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter5/BodyMassIndex2/BodyMassIndex2.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BMIHelper" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter5/BodyMassIndex2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="VU27" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter5/BodyMassIndex2/BMIHelper.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -504,19 +523,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.VU6" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Statistic" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Weave1" />
-      <item index="3" class="java.lang.String" itemvalue="Python.RowWeaver" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Weave2" />
-      <item index="5" class="java.lang.String" itemvalue="Python.BodyMassIndex" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Weave1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Weave2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.BodyMassIndex" />
+      <item index="4" class="java.lang.String" itemvalue="Python.BodyMassIndex2" />
+      <item index="5" class="java.lang.String" itemvalue="Python.BMIHelper" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.BodyMassIndex" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Weave2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Weave1" />
-        <item index="3" class="java.lang.String" itemvalue="Python.RowWeaver" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Statistic" />
+        <item index="0" class="java.lang.String" itemvalue="Python.BodyMassIndex2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.BMIHelper" />
+        <item index="2" class="java.lang.String" itemvalue="Python.BodyMassIndex" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Weave2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Weave1" />
       </list>
     </recent_temporary>
   </component>
@@ -616,7 +635,11 @@
       <created>1385304551917</created>
       <updated>1385304551917</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Made BodyMassIndex">
+      <created>1385307132683</created>
+      <updated>1385307132683</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -643,17 +666,17 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20651014" sideWeight="0.67964405" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20651014" sideWeight="0.67964405" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3263041" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3263041" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32035595" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -705,7 +728,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made Weave1 and Weave2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made BodyMassIndex" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -732,6 +755,7 @@
     <MESSAGE value="Added Replay3" />
     <MESSAGE value="Started on Statistic" />
     <MESSAGE value="Made Weave1 and Weave2" />
+    <MESSAGE value="Made BodyMassIndex" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -739,21 +763,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter3/Replay1/Replay1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="0" selection-end="1695" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter4/Replay 2/Replay2Invoer.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.61551726" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter4/Statistics/ipy_lib.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter4/Replay3/ipy_lib.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -831,18 +840,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/BodyMassIndex/BodyMassIndex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="22" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#94#104#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter5/BodyMassIndex/BMIHelper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="72" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+        <state line="13" column="72" selection-start="418" selection-end="418" vertical-scroll-proportion="0.2905983">
           <folding />
         </state>
       </provider>
@@ -853,6 +853,39 @@
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/BodyMassIndex/BodyMassIndex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="60" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#94#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/BodyMassIndex2/bmi2.txt">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="34" selection-start="636" selection-end="636" vertical-scroll-proportion="-14.96">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/BodyMassIndex2/BodyMassIndex2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="238" selection-end="255" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/BodyMassIndex2/BMIHelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="4" selection-start="471" selection-end="471" vertical-scroll-proportion="0.44957265">
           <folding />
         </state>
       </provider>

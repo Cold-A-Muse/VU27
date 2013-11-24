@@ -6,7 +6,7 @@ import sys
 
 from BMIHelper import BMIHelper
 
-with open('bmi.txt') as f:
+with open('bmi2.txt') as f:
     content = f.readlines()
     persons = [x.split() for x in content]
     print persons
@@ -16,6 +16,9 @@ for person in persons:
     gender = person[2]
     length = person[3]
     weight = person[4]
+    syndrome = person[5]
+    bmi_helper = BMIHelper(length, weight, gender, last_name, syndrome)
+    bmi_helper.calculateBMI()
+print bmi_helper
 
-    bmi_helper = BMIHelper(length, weight, gender, last_name)
-    print bmi_helper
+
