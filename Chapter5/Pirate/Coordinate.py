@@ -1,9 +1,10 @@
 __author__ = 'Helsloot'
 
-class Coordinate(object):
+
+class Coordinate(str):
 
     def __init__(self, input):
-        self.coord = str(input)
+        self.coord = input
 
     def getX(self):
         split = self.split(',')
@@ -13,7 +14,6 @@ class Coordinate(object):
         split = self.split(',')
         old_x = int(split[0])
         new_x = old_x + 1
-        print new_x
         return new_x
 
     def getY(self):

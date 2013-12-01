@@ -3,10 +3,10 @@ from ipy_lib import file_input
 from CoordinateRow import CoordinateRow
 from Coordinate import Coordinate
 
+
 def addAll(coord_row, coordinate_row_instance):
     for i in range(len(coord_row)):
         if '=' in coord_row[i]:
-
             return coordinate_row_instance.add(coord_row[i].split('=')[0])
         else:
             coordinate_row_instance.add(coord_row[i])
@@ -36,5 +36,7 @@ print cr.coordinate_row
 removeEqual(coords[0], cr2)
 print cr2.coordinate_row
 print flatten(cr2.coordinate_row)
+for i in flatten(cr2.coordinate_row):
+    print str(Coordinate(i).getAdjustedX())+","+str(Coordinate(i).getY()),
 
 
