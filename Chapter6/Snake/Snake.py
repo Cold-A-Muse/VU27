@@ -30,17 +30,20 @@ def processEvent(event):
 
 def create_snake():
     global snake_instance
+    snake_instance.add(Coordinate(0, 0))
     snake_instance.add(Coordinate(1, 0))
 
 
-# def put_snake_on_board(snake_instance):
-#     for snake_coordinate in snake_instance.snake_tail:
-#         ui.place(snake_coordinate.x, snake_coordinate.y, ui.SNAKE)
-#     ui.show()
 
-def put_snake_on_board():
-    ui.place(head_coordinate.x, head_coordinate.y, ui.SNAKE)
+def put_snake_on_board(snake_instance):
+    for snake_coordinate in snake_instance.snake_tail:
+        ui.place(snake_coordinate.x, snake_coordinate.y, ui.SNAKE)
+        print snake_coordinate.x, snake_coordinate.y
     ui.show()
+
+# def put_snake_on_board():
+#     ui.place(head_coordinate.x, head_coordinate.y, ui.SNAKE)
+#     ui.show()
 
 def set_apple_image_solo():
     global apple_x, apple_y
@@ -70,7 +73,6 @@ def set_current_direction(event_data):
         current_direction = 'u'
     elif event_data == 'd':
         current_direction = 'd'
-
 
 def processAnimation():
     global head_coordinate, current_direction, dead, ui
@@ -103,6 +105,39 @@ def processAnimation():
             ui.show()
         else:
             dead = True
+
+def processAnimationNIETWERKEND():
+    global head_coordinate, snake_instance, current_direction, dead, ui
+    for snake_coordinate in snake_instance.snake_tail:
+        ui.place(snake_coordinate.x, snake_coordinate.y, ui.EMPTY)
+        if current_direction == 'r':
+            if snake_coordinate.x < WIDTH - 1:
+                snake_instance.add(snake_coordinate.shift(1, 0))
+                ui.place(snake_coordinate.x, snake_coordinate.y, ui.SNAKE)
+                ui.show()
+            else:
+                dead = True
+        elif current_direction == 'l':
+            if snake_coordinate.x > 0:
+                snake_instance.add(snake_coordinate.shift(-1, 0))
+                ui.place(snake_coordinate.x, snake_coordinate.y, ui.SNAKE)
+                ui.show()
+            else:
+                dead = True
+        elif current_direction == 'u':
+            if snake_coordinate.y > 0:
+                snake_instance.add(snake_coordinate.shift(0, -1))
+                ui.place(snake_coordinate.x, snake_coordinate.y, ui.SNAKE)
+                ui.show()
+            else:
+                dead = True
+        elif current_direction == 'd':
+            if snake_coordinate.y < HEIGHT - 1:
+                snake_instance.add(snake_coordinate.shift(0, 1))
+                ui.place(snake_coordinate.x, snake_coordinate.y, ui.SNAKE)
+                ui.show()
+            else:
+                dead = True
 
 
 def check_dead_state():
@@ -137,7 +172,7 @@ def processKey(event_data):
 
 create_snake()
 set_apple_image_solo()
-put_snake_on_board()
+put_snake_on_board(snake_instance)
 
 while True:
     event = ui.get_event()
