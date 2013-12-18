@@ -1,31 +1,31 @@
-__author__ = 'Helsloot'
+'''
+Assignment: Snake
+Created on 8th of december 2013
+Author: Daan Helsloot (dht340)
+'''
+
+WIDTH = 30
+HEIGHT = 40
 
 from Coordinate import Coordinate
 from SnakeCoordinateRow import SnakeCoordinateRow
 from ipy_lib import SnakeUserInterface
 
-WIDTH = 10
-HEIGHT = 10
 start_speed = 5
-
 apple_x = 0
 apple_y = 0
 current_direction = 'r'
-dead = False
 ui = SnakeUserInterface(WIDTH, HEIGHT)
-image = ui.WALL
 ui.set_animation_speed(start_speed)
-head_coordinate = Coordinate(1, 0)
 snake_instance = SnakeCoordinateRow()
 
 
-def processEvent(event):
+def process_event(event):
     if event.name == "alarm":
-        processAnimation()
+        chk_snake_tail_collision(snake_instance)
+        process_animation()
     if event.name == 'arrow':
-        set_current_direction(event.data)
-    # if event.name == 'letter':
-    #     processKey(event.data)
+        set_direction(event.data)
 
 
 def create_snake():
@@ -34,18 +34,19 @@ def create_snake():
     snake_instance.add(Coordinate(1, 0))
 
 
-
 def put_snake_on_board(snake_instance):
     for snake_coordinate in snake_instance.snake_tail:
         ui.place(snake_coordinate.x, snake_coordinate.y, ui.SNAKE)
-        print snake_coordinate.x, snake_coordinate.y
     ui.show()
 
-# def put_snake_on_board():
-#     ui.place(head_coordinate.x, head_coordinate.y, ui.SNAKE)
-#     ui.show()
 
-def set_apple_image_solo():
+def set_up_game():
+    create_snake()
+    set_apple_image()
+    put_snake_on_board(snake_instance)
+
+
+def set_apple_image():
     global apple_x, apple_y
     apple_x = ui.random(WIDTH - 1)
     apple_y = ui.random(HEIGHT - 1)
@@ -53,131 +54,92 @@ def set_apple_image_solo():
     ui.show()
 
 
+def chk_snake_tail_collision(snake_instance):
+    for i in range(0, len(snake_instance.snake_tail)-1):
+        if snake_instance.snake_tail[-1].x == snake_instance.snake_tail[i].x and \
+           snake_instance.snake_tail[-1].y == snake_instance.snake_tail[i].y:
+            ui.print_("You're dead!")
+            ui.set_animation_speed(0)
+
+
 def chk_apple_caught():
-    global head_coordinate, apple_x, apple_y
-    if head_coordinate.x == apple_x and head_coordinate.y == apple_y:
+    global apple_x, apple_y
+    if snake_instance.snake_tail[-1].x == apple_x and snake_instance.snake_tail[-1].y == apple_y:
+        snake_instance.add(Coordinate(apple_x, apple_y))
         ui.place(apple_x, apple_y, ui.SNAKE)
-        apple_x = ui.random(WIDTH - 1)
-        apple_y = ui.random(HEIGHT - 1)
+        ui.show()
+        for i in range(0, len(snake_instance.snake_tail)-1):
+            while snake_instance.snake_tail[i].x == apple_x and snake_instance.snake_tail[i].y == apple_y:
+                apple_x = ui.random(WIDTH - 1)
+                apple_y = ui.random(HEIGHT - 1)
     ui.place(apple_x, apple_y, ui.FOOD)
     ui.show()
 
 
-def set_current_direction(event_data):
+def set_direction(event_data):
     global current_direction
-    if event_data == 'r':
+    if event_data == 'r' and current_direction != 'l':
         current_direction = 'r'
-    elif event_data == 'l':
+    elif event_data == 'l' and current_direction != 'r':
         current_direction = 'l'
-    elif event_data == 'u':
+    elif event_data == 'u' and current_direction != 'd':
         current_direction = 'u'
-    elif event_data == 'd':
+    elif event_data == 'd' and current_direction != 'u':
         current_direction = 'd'
 
-def processAnimation():
-    global head_coordinate, current_direction, dead, ui
-    ui.place(head_coordinate.x, head_coordinate.y, ui.EMPTY)
+
+def check_boundary_collision(coordinate):
+    if coordinate.x == WIDTH:
+        coordinate.x = 0
+    if coordinate.x < 0:
+        coordinate.x = WIDTH - 1
+    if coordinate.y == HEIGHT:
+        coordinate.y = 0
+    if coordinate.y < 0:
+        coordinate.y = HEIGHT - 1
+
+
+def process_animation():
+    global apple_x, apple_y
+    x = snake_instance.snake_tail[-1].x
+    y = snake_instance.snake_tail[-1].y
+    if apple_x == x and apple_y == y:
+        set_apple_image()
+    else:
+        old_coord = snake_instance.remove()
+        ui.place(old_coord.x, old_coord.y, ui.EMPTY)
+
     if current_direction == 'r':
-        if head_coordinate.x < WIDTH - 1:
-            head_coordinate.shift(1, 0)
-            ui.place(head_coordinate.x, head_coordinate.y, ui.SNAKE)
-            ui.show()
-        else:
-            dead = True
+        x += 1
+        new_coord = Coordinate(x, y)
+        check_boundary_collision(new_coord)
+        snake_instance.add(new_coord)
+
     elif current_direction == 'l':
-        if head_coordinate.x > 0:
-            head_coordinate.shift(-1, 0)
-            ui.place(head_coordinate.x, head_coordinate.y, ui.SNAKE)
-            ui.show()
-        else:
-            dead = True
+        x -= 1
+        new_coord = Coordinate(x, y)
+        check_boundary_collision(new_coord)
+        snake_instance.add(new_coord)
+
     elif current_direction == 'u':
-        if head_coordinate.y > 0:
-            head_coordinate.shift(0, -1)
-            ui.place(head_coordinate.x, head_coordinate.y, ui.SNAKE)
-            ui.show()
-        else:
-            dead = True
+        y -= 1
+        new_coord = Coordinate(x, y)
+        check_boundary_collision(new_coord)
+        snake_instance.add(new_coord)
+
     elif current_direction == 'd':
-        if head_coordinate.y < HEIGHT - 1:
-            head_coordinate.shift(0, 1)
-            ui.place(head_coordinate.x, head_coordinate.y, ui.SNAKE)
-            ui.show()
-        else:
-            dead = True
+        y += 1
+        new_coord = Coordinate(x, y)
+        check_boundary_collision(new_coord)
+        snake_instance.add(new_coord)
 
-def processAnimationNIETWERKEND():
-    global head_coordinate, snake_instance, current_direction, dead, ui
-    for snake_coordinate in snake_instance.snake_tail:
-        ui.place(snake_coordinate.x, snake_coordinate.y, ui.EMPTY)
-        if current_direction == 'r':
-            if snake_coordinate.x < WIDTH - 1:
-                snake_instance.add(snake_coordinate.shift(1, 0))
-                ui.place(snake_coordinate.x, snake_coordinate.y, ui.SNAKE)
-                ui.show()
-            else:
-                dead = True
-        elif current_direction == 'l':
-            if snake_coordinate.x > 0:
-                snake_instance.add(snake_coordinate.shift(-1, 0))
-                ui.place(snake_coordinate.x, snake_coordinate.y, ui.SNAKE)
-                ui.show()
-            else:
-                dead = True
-        elif current_direction == 'u':
-            if snake_coordinate.y > 0:
-                snake_instance.add(snake_coordinate.shift(0, -1))
-                ui.place(snake_coordinate.x, snake_coordinate.y, ui.SNAKE)
-                ui.show()
-            else:
-                dead = True
-        elif current_direction == 'd':
-            if snake_coordinate.y < HEIGHT - 1:
-                snake_instance.add(snake_coordinate.shift(0, 1))
-                ui.place(snake_coordinate.x, snake_coordinate.y, ui.SNAKE)
-                ui.show()
-            else:
-                dead = True
+    ui.place(new_coord.x, new_coord.y, ui.SNAKE)
+    ui.show()
 
 
-def check_dead_state():
-    global dead
-    if dead:
-        ui.clear_text()
-        ui.print_("You're dead")
-        ui.clear()
-        ui.show()
-
-
-def processArrow(event_data):
-    global start_speed
-    if event_data == 'l':
-        if start_speed > 0:
-            start_speed -= 0.5
-            ui.set_animation_speed(start_speed)
-
-    elif event_data == 'r':
-        start_speed += 0.5
-        ui.set_animation_speed(start_speed)
-
-
-def processKey(event_data):
-    global image
-    if event_data == 'g':
-        if image == ui.SNAKE:
-            image = ui.WALL
-        else:
-            image = ui.SNAKE
-
-
-create_snake()
-set_apple_image_solo()
-put_snake_on_board(snake_instance)
+set_up_game()
 
 while True:
     event = ui.get_event()
-    processEvent(event)
-    check_dead_state()
-    chk_apple_caught()
-
+    process_event(event)
 

@@ -1,7 +1,7 @@
 '''
-Assignment: Pirate
+Assignment: Snake
 Class: Coordinate
-Created on 29th of november 2013
+Created on 8th of december 2013
 Author: Daan Helsloot (dht340)
 '''
 
